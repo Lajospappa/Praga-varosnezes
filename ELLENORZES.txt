@@ -1,0 +1,29 @@
+PRÁGA PROJEKT ELLENŐRZÉSE
+2026. november 12.
+
+TARTALOM ÉS FÁJLOK
+27 állomás, 27 részletoldal, 27 helyben tárolt fénykép.
+162 idegenvezetői bekezdés, közel 7800 szó.
+A teljes szöveg és a hat bekezdés minden részletoldalban szerepel.
+A JavaScript és JSON adatok egyeznek.
+A helyi hivatkozások, a képfájlok és a JavaScript szintaxisa ellenőrizve.
+A GPX és CSV export 27 pontjának koordinátái egyeznek a projekt adataival.
+A képek szerzője, forrása, licence és az átméretezés feltüntetve.
+
+FUNKCIÓK
+Szimulált helyadatokkal a távolságszámítás és a helyadatkezelés ellenőrizve.
+A teljes, hosszú narráció szövegének felolvasási sorba rendezése, a hu-HU nyelv és a megszakítás ellenőrizve.
+
+BÖNGÉSZŐS ELLENŐRZÉS
+Asztali lista 27 kártyával és 27 számozott térképjelölővel megjelenik.
+375 képpont széles mobilkeretben a lista és az Orloj részletoldala vízszintes túlcsordulás nélkül jelenik meg.
+Az Orloj fényképe betöltődik, a hat szövegbekezdés látható.
+Az Orloj Következő gombja a Týn templomra lép.
+A lista utolsó részletgombja a Vyšehrad oldalát nyitja.
+A 27. állomás Következő gombja helyesen inaktív.
+Helyadat hiányában érthető állapotjelzés jelenik meg, az oldal használható marad.
+
+ESZKÖZÖN ELLENŐRIZENDŐ
+A valódi GPS vételt és a hallható magyar beszédhangot a használni kívánt telefonon kell kipróbálni.
+A felolvasás a böngésző és az operációs rendszer telepített beszédhangjait használja.
+A térképhez és a külső navigációhoz internetkapcsolat szükséges.

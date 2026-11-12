@@ -1,0 +1,1546 @@
+// Prága, 27 állomás, helyszínenként 6 hosszú bekezdés.
+const POIS = [
+  {
+    "key": "prg001",
+    "id": "PRG-001",
+    "num": 1,
+    "name": "01. Prágai vár (Pražský hrad)",
+    "title": "Prágai vár (Pražský hrad)",
+    "hungarianName": "Prágai vár",
+    "czechName": "Pražský hrad",
+    "lat": 50.09,
+    "lon": 14.4,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_001_pragai_var.html",
+    "short": "Fejedelmi várból uralkodói és állami központtá alakult történelmi városrész, palotákkal, templomokkal és panorámás udvarokkal.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A prágai várhoz érkezve először ne egyetlen épületet keressünk, hanem egy egész városrészt. A kapuk mögött udvarok, templomok, paloták és kertek követik egymást. A Moldva fölé emelkedő magaslat évszázadokon át a cseh uralkodók hatalmának központja volt. A városból nézve a vár hosszú homlokzata ma is szinte külön horizontot rajzol Prága fölé.",
+      "Az első fejedelmi központ a kilencedik század végén alakult ki ezen a helyen. A Přemysl uralkodóház idején fokozatosan erősödött meg, majd újabb dinasztiák alakították tovább. IV. Károly korában Prága a Német Római Birodalom egyik legfontosabb központjává vált. A vár történetét ezért a cseh múlton túl tágabb európai összefüggésben is érdemes látni.",
+      "Sétáljunk át az udvarokon, és figyeljük meg a léptékek változását. A hosszú, rendezett palotahomlokzatok után a székesegyház hatalmas tömege szinte váratlanul emelkedik elénk. A mai egységesnek tűnő külső kép mögött sok, egymástól eltérő építési korszak rejtőzik. Egy román kori falmaradvány, egy gótikus ablak és egy barokk kapu itt ugyanannak a történetnek más fejezete.",
+      "II. Rudolf idején a vár a művészetek, a tudomány és az udvari gyűjtés különleges központja lett. A császár környezetében festők, csillagászok és természettudósok dolgoztak. Az alkimistákról szóló történetek ebből a szellemi környezetből is táplálkoznak. A romantikus legendák mellett azonban egy jelentős európai udvar nagyon is valós kulturális teljesítményét látjuk.",
+      "Az uralkodói rezidencia a modern államiságban is megőrizte szerepét. A vár ma a cseh köztársasági elnök hivatali székhelye is. Az őrség, az ünnepi terek és az időnként lezárt épületrészek erre emlékeztetnek. A látogató tehát nem kizárólag múzeumi környezetben, hanem részben ma is működő állami központban jár.",
+      "A déli oldalon keressünk egy olyan pontot, ahonnan lenézhetünk a városra. A Kisoldal háztetői, a folyó és a túlpart tornyai innen könnyen összekapcsolódnak. A következő megállókban külön járjuk végig a vár legfontosabb épületeit. Most érdemes megjegyezni ezt az átfogó képet, mert a részletek között bolyongva sokszor segít majd eligazodni."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A koordináta a vár központi udvarainak tájékozódási pontja. Az udvarok, a történeti épületek, a kertek és a külön múzeumok hozzáférése eltérhet. A helyszín emelkedős, a biztonsági és állami lezárások befolyásolhatják a bejárást.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/other/history-of-prague-castle-10340"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Prague_Castle"
+      },
+      {
+        "title": "Háttér és helytörténet · prague.eu",
+        "url": "https://prague.eu/en/objevujte/prague-castle-prazsky-hrad/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Prague_Castle",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0909,
+      14.4005
+    ],
+    "img": "images/PRG_001.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg/960px-Karl%C5%AFv_most_Praha%2C_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20181006004640",
+    "imageAuthor": "Tilman2007",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Čeština: Pražský hrad, Karlův most Deutsch: Prager Burg und Karlsbrücke",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg002",
+    "id": "PRG-002",
+    "num": 2,
+    "name": "02. Szent Vitus székesegyház (Katedrála svatého Víta)",
+    "title": "Szent Vitus székesegyház (Katedrála svatého Víta)",
+    "hungarianName": "Szent Vitus székesegyház",
+    "czechName": "Katedrála svatého Víta",
+    "lat": 50.09083,
+    "lon": 14.40056,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_002_szent_vitus_szekesegyhaz.html",
+    "short": "Gótikus koronázótemplom Mucha üvegablakával, Szent Vencel kápolnájával és a cseh uralkodók emlékeivel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Szent Vitus székesegyház előtt néhány lépésnyi hátrálással próbáljuk befogadni a teljes homlokzatot. A szűkebb várudvar miatt az épület különösen magasnak és közelinek érződik. Teljes neve Szent Vitus, Vencel és Adalbert tiszteletét őrzi. A templom egyszerre püspöki székesegyház, koronázási hely és a cseh történelmi emlékezet egyik legfontosabb épülete.",
+      "A mai gótikus székesegyház építése 1344-ben kezdődött, amikor Prága érseki központtá vált. A munkát előbb Arrasi Mátyás, majd Peter Parler vezette. A nagy építkezés több korszakon át folytatódott, és csak 1929-ben fejeződött be. Ezért amit első pillantásra egységes középkori alkotásnak látunk, abban a modern kor műemléki és művészeti munkája is jelen van.",
+      "Belépve figyeljük meg, hogyan vezeti a fény a tekintetet az oszlopok között. A magas boltozat és a színes üvegablakok másféle érzékelést kívánnak, mint a külső homlokzat részletei. Alfons Mucha ablaka a huszadik század művészetét kapcsolja össze a történelmi templomtérrel. Érdemes először a színek egészét nézni, majd az egyes alakokra és jelenetekre közelíteni.",
+      "A Szent Vencel kápolna a templom egyik legfontosabb szakrális tere. Gazdag díszítése és a cseh védőszent sírja különös hangsúlyt ad ennek az épületrésznek. A koronakamrához vezető út is a kápolnához kapcsolódik. A cseh koronaékszerek azonban nincsenek állandóan a látogatók elé helyezve, csak különleges alkalmakkor mutatják be őket.",
+      "A székesegyházban uralkodói sírok és díszes emlékhelyek is találhatók. A királyi történet mellett szentek, főpapok és művészek emlékezete is jelen van. Egy lassú körbejárás során figyeljük meg, milyen különböző anyagok és formák idézik fel a múltat. A kő, az üveg, a fém és a mozaik mind másképpen alakítja a belső tér ünnepélyességét.",
+      "Kifelé a déli oldal Aranykapujának mozaikját is érdemes megkeresni. A nyugati homlokzathoz képest itt más korszak és más részletgazdagság kerül előtérbe. A székesegyház teljes megértéséhez ezért egyetlen fénykép biztosan kevés. A legjobb, ha kívülről és belülről is hagyunk időt arra, hogy az épület különböző arcai egymás után feltáruljanak."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A koronaékszerek nem állandó kiállítási tárgyak. A vár 2026. november 12-én ellenőrzött tájékoztatója szerint az ingyenes templomrész építési munkák miatt további értesítésig nem látogatható. A turisztikai belépéshez érvényes körjegy szükséges, a szertartások rendje külön érvényes. 2026. november 16-án külön rövidített nyitvatartást jeleztek.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/st.-vitus-cathedral-10330"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral"
+      },
+      {
+        "title": "Háttér és helytörténet · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/other/the-bohemian-crown-jewels-10273"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0909,
+      14.4003
+    ],
+    "img": "images/PRG_002.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:PragueCathedral03.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/PragueCathedral03.jpg/960px-PragueCathedral03.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080212001228",
+    "imageAuthor": "MathKnight and Zachi Evenor",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "English: The Gothic\\Neo-Gothic St. Vitus cathedral within the Prague castle, Praha. This is a view from Petrin hill with optical zoom. Français : La cathédrale gothique et néogothique Saint-Guy de Prague, située dans le Château de Prague. Photo prise at téléobjectif depuis la colline de Petrin. עברית: קתדרלת ויטוס הקדוש (גותית/נאו-גותית) בפראג, מבט מגבעת פטרין Camera location50° 05′ 26.5″ N, 14° 24′ 00.3″ E View this and other nearby images on: OpenStreetMap 50.090694; 14.400083",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg003",
+    "id": "PRG-003",
+    "num": 3,
+    "name": "03. Arany utcácska (Zlatá ulička)",
+    "title": "Arany utcácska (Zlatá ulička)",
+    "hungarianName": "Arany utcácska",
+    "czechName": "Zlatá ulička",
+    "lat": 50.0922,
+    "lon": 14.4039,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_003_arany_utcacska.html",
+    "short": "Apró várbeli lakóházak az őrök, aranyművesek és Franz Kafka emlékével, az alkimisták legendáin túl.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Az Arany utcácskába belépve a vár monumentális terei után szinte összemegy körülöttünk a világ. Az apró ajtók, az alacsony ereszek és a színes homlokzatok egészen más életformát idéznek. A házsor a vár északi védelmi vonalának belső oldalán alakult ki. Eredetileg a várhoz tartozó kisebb lakóhelyek világát őrizte meg, nem uralkodói pompát.",
+      "A házakban várőrök, mesteremberek és családjaik éltek. Az aranyművesek jelenléte a név történetéhez is hozzátartozik. Az alkimisták utcájáról szóló elbeszélések sokkal romantikusabb képet festenek, mint amit a biztos történeti adatok indokolnak. Ezeket inkább Prága legendavilágának részeként érdemes hallgatnunk.",
+      "A kis házak berendezései segítenek elképzelni, hogyan osztozhatott egy család néhány szűk helyiségen. Figyeljük meg az ajtók méretét, az ablakok elhelyezését és a falak vastagságát. A mai látogató néhány perc alatt átsétál ott, ahol egykor egész életek teltek el. A festői külső mögött ezért a mindennapi lakhatás nagyon is gyakorlati története áll.",
+      "A 22-es számú ház Franz Kafka emlékét őrzi. Az író az első világháború idején használta ezt a kis házat, amely nővéréhez kapcsolódott. Próbáljuk elképzelni, milyen más élmény lehetett itt dolgozni a mai turistaforgalom nélkül. A szűk utca és a várfal közelsége különösen zárt, befelé forduló környezetet adott.",
+      "Az utcácska huszadik századi története is figyelemre méltó. A 12-es házhoz Josef Kazda filmgyűjtő emléke kapcsolódik, aki a megszállás idején cseh filmeket őrzött meg. A házak múzeumi bemutatása így a kézművesség mellett az emlékezet megmentéséről is beszél. A mai színvilág kialakításában Jiří Trnka művész tervei is szerepet játszottak.",
+      "Az utcácska végén már a Daliborka torony sötétebb története vár bennünket. A kis lakóházak és a börtöntorony közelsége a vár társadalmának erős különbségeit mutatja. Mielőtt továbbmegyünk, nézzünk vissza a színes házsor teljes vonalára. A hely igazi különlegessége a látvány és az egykor benne zajló egyszerű, sokszor nehéz élet közötti feszültség."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Az Arany utcácska és a Daliborka a vár látogatási rendszeréhez tartozik. A házak, kiállítások és átjárók nyitása eltérhet a szabadtéri várudvarokétól.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/golden-lane-10334"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Golden_Lane"
+      },
+      {
+        "title": "Háttér és helytörténet · prague.eu",
+        "url": "https://prague.eu/en/objevujte/prague-castle-golden-lane-zlata-ulicka/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Golden_Lane",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0921,
+      14.4025
+    ],
+    "img": "images/PRG_003.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prague_-_Zlata_ulicka.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Prague_-_Zlata_ulicka.jpg/960px-Prague_-_Zlata_ulicka.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20050712220656",
+    "imageAuthor": "Maros M r a z (Maros)",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "imageDescription": "Čeština: Praha - Zlatá ulička English: Golden lane in Prague Castle Français : Ruelle d'Or au Chateau de Prague Polski: Złota Uliczka w Pradze",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg004",
+    "id": "PRG-004",
+    "num": 4,
+    "name": "04. Daliborka torony (Daliborka)",
+    "title": "Daliborka torony (Daliborka)",
+    "hungarianName": "Daliborka torony",
+    "czechName": "Daliborka",
+    "lat": 50.092361,
+    "lon": 14.405,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_004_daliborka_torony.html",
+    "short": "Jagelló kori védőtorony és egykori börtön Dalibor z Kozojed sorsával és a hegedülő rab legendájával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Daliborka tornyánál az Arany utcácska kedves színei után hirtelen komorabb környezetbe érkezünk. A kerek, vastag falú épület a vár északi erődítéseinek részeként született a tizenötödik század végén. Az ágyútornyok korában a védelem új formáit keresték. A torony alsó tereit ugyanakkor már korán foglyok elhelyezésére használták.",
+      "Névadója Dalibor z Kozojed cseh nemes volt. Az ő fogsága a Jagelló kor társadalmi és birtokvitáinak világába vezet. A történet mögött fellázadt jobbágyok, földesúri érdekek és királyi igazságszolgáltatás álltak. A torony neve így egyetlen ember sorsán keresztül őriz egy bonyolultabb történelmi konfliktust.",
+      "A legismertebb legenda szerint Dalibor a börtönben tanult meg hegedülni. Zenéjével annyira megindította az embereket, hogy azok élelmet és segítséget hoztak neki. A megható történetnek a város mesélő hagyománya adott maradandó formát. Biztos történeti tényként azonban nem állíthatjuk, hogy a fogoly valóban ilyen módon vált volna muzsikussá.",
+      "Dalibor alakja a cseh zenében is tovább élt. Bedřich Smetana operája a rab lovag történetét romantikus művészi formában dolgozta fel. Ettől a torony nemcsak börtöntörténeti emlék, hanem egy ismert kulturális történet helyszíne is lett. Az épületnél állva különösen jól érzékelhető, hogyan kapcsolódik össze a történeti múlt és a későbbi képzelet.",
+      "Ha a belső terek látogathatók, nézzük meg a szintek és nyílások kapcsolatát. A vastag falak között a fény és a mozgás lehetősége erősen korlátozott. A börtön történetét nem csupán tárgyakból, hanem magából a térből is megérthetjük. Az Arany utcácska lakóházai után itt egészen más jelentése lesz az alacsony ajtónak és a szűk helyiségnek.",
+      "Kívülről figyeljük meg a torony elhelyezkedését a vár peremén. Egyszerre kellett a külvilág felé védelmet, befelé pedig őrzött zártságot biztosítania. A romantikus hegedűszó legendája ezt a kemény építészeti környezetet ellenpontozza. Továbbindulva érdemes emlékezni arra, hogy a vár történetéhez az ünnepi udvarok mellett a fogság és a kiszolgáltatottság terei is hozzátartoznak."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A torony az Arany utcácska közelében található. A két pont külön leírást kap, de nem feltétlenül két külön megvásárolandó belépőt jelent. Szűkebb, lépcsős belső terekre számíts.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/golden-lane-10334"
+      },
+      {
+        "title": "Háttér és helytörténet · cs.wikipedia.org",
+        "url": "https://cs.wikipedia.org/wiki/Daliborka"
+      },
+      {
+        "title": "Háttér és helytörténet · virtualni.praha.eu",
+        "url": "https://virtualni.praha.eu/towers/daliborka"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://cs.wikipedia.org/wiki/Daliborka",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0923,
+      14.4035
+    ],
+    "img": "images/PRG_004.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Daliborka-Turm_vom_Schlossgarten_-_panoramio.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Daliborka-Turm_vom_Schlossgarten_-_panoramio.jpg/500px-Daliborka-Turm_vom_Schlossgarten_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20161102110032",
+    "imageAuthor": "Jürgen Regel, Marian…",
+    "imageLicense": "CC BY 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "imageDescription": "Daliborka-Turm vom Schlossgarten",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg005",
+    "id": "PRG-005",
+    "num": 5,
+    "name": "05. Lobkowicz palota (Lobkowiczký palác)",
+    "title": "Lobkowicz palota (Lobkowiczký palác)",
+    "hungarianName": "Lobkowicz palota",
+    "czechName": "Lobkowiczký palác",
+    "lat": 50.091609,
+    "lon": 14.404852,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_005_lobkowicz_palota.html",
+    "short": "Magángyűjtemény Bruegel és Canaletto festményeivel, Mozart és Beethoven kézjegyeivel, különleges városi panorámával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Lobkowicz palotánál most egy család nézőpontjából lépünk be a cseh és európai történelembe. A vár keleti részén álló épület műgyűjteménye évszázadokon át alakult. A tárgyak nem véletlenszerűen kerültek egymás mellé. Családi kapcsolatok, művészi ízlés, politikai szerepek és személyes szenvedélyek formálták azt az együttest, amelyet ma láthatunk.",
+      "A palota a vár területének külön működő, magántulajdonú múzeumi helyszíne. Látogatása nem egyszerűen a vár közös kiállítási körének folytatása. Érdemes önálló időt hagyni rá, különösen akkor, ha a festészet vagy a zene közel áll hozzánk. A termeiben a nagy állami reprezentáció helyett egy arisztokrata gyűjtemény belső logikáját követhetjük.",
+      "A festmények között Canaletto városképei és idősebb Pieter Bruegel alkotása is külön figyelmet érdemel. A képeknél először a teljes jelenetet nézzük, majd keressünk egy apró részletet, amely megállítja a szemünket. Egy városkép vagy falusi jelenet így fokozatosan válik személyes élménnyé. A gyűjtemény ereje éppen abban rejlik, hogy egymástól eltérő művészi világokat hoz közel.",
+      "A zenetörténeti anyag Mozart és Beethoven kézjegyeit is megőrzi. A család fontos szerepet játszott a zeneszerzők támogatásában és műveik terjesztésében. Egy kézzel javított kotta közvetlenebb kapcsolatot teremt az alkotóval, mint egy későbbi díszkiadás. A látogatás során érdemes a zenei dokumentumokat gondolkodási és munkafolyamatok nyomaiként is szemlélni.",
+      "A hangszerek, fegyverek, kerámiák és egyházi tárgyak a palotai élet további oldalait mutatják. A reprezentáció mellett a használat és az ajándékozás története is megjelenik bennük. A család huszadik századi sorsa pedig a birtokvesztésekhez és a visszaszerzéshez is kapcsolódik. Ettől a múzeum nemcsak régi tárgyakról, hanem az örökség továbbadásának nehézségeiről is szól.",
+      "A palota panorámás pontjáról újra a város kerül a szemünk elé. A termekben látott művészeti világ és a tetők fölötti kilátás különösen szép lezárást ad egymásnak. Keressük meg a Károly híd irányát és a túlpart tornyait. Innen már nemcsak tájként, hanem a gyűjteményt létrehozó társadalmi és kulturális közeg részeként is láthatjuk Prágát."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A Lobkowicz palota külön múzeumi helyszín. A vár általános körjegyét ne tekintsd automatikusan ide is érvényesnek. A múzeum és a panorámás terek hozzáférését a palota saját programja közli.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.lobkowicz.cz",
+        "url": "https://www.lobkowicz.cz/en/lobkowicz-palace/museum"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lobkowicz_Palace"
+      },
+      {
+        "title": "Háttér és helytörténet · www.lobkowicz.cz",
+        "url": "https://www.lobkowicz.cz/en/lobkowicz-palace"
+      },
+      {
+        "title": "Háttér és helytörténet · www.lobkowicz.cz",
+        "url": "https://www.lobkowicz.cz/en/our-story"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://cs.wikipedia.org/wiki/Lobkovický_palác_(Pražský_hrad)",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0903,
+      14.4021
+    ],
+    "img": "images/PRG_005.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lobkovick%C3%BD_pal%C3%A1c_%28Pra%C5%BEsk%C3%BD_hrad%29_03.JPG",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lobkovick%C3%BD_pal%C3%A1c_%28Pra%C5%BEsk%C3%BD_hrad%29_03.JPG/960px-Lobkovick%C3%BD_pal%C3%A1c_%28Pra%C5%BEsk%C3%BD_hrad%29_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20120810094129",
+    "imageAuthor": "VitVit",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageDescription": "Čeština: Lobkovický palác na Pražském hradě",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg006",
+    "id": "PRG-006",
+    "num": 6,
+    "name": "06. Régi Királyi Palota és Ulászló terem (Starý královský palác)",
+    "title": "Régi Királyi Palota és Ulászló terem (Starý královský palác)",
+    "hungarianName": "Régi Királyi Palota és Ulászló terem",
+    "czechName": "Starý královský palác",
+    "lat": 50.090428,
+    "lon": 14.401453,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_006_regi_kiralyi_palota_es_ulaszlo_terem.html",
+    "short": "Merész késő gótikus boltozat, lovagi tornákra vezető lovaglépcső és az 1618-as defenesztráció emléke.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Régi Királyi Palotában a vár világi hatalmának egyik legfontosabb teréhez érkezünk. A korábbi román kori épületet később gótikus palotává alakították, majd újabb szárnyakkal bővítették. A falak alatt és mögött ezért több egymásra épülő korszak maradványai rejtőznek. A látogatás során különösen figyeljünk arra, hogyan változik a terek mérete és ünnepélyessége.",
+      "Az Ulászló terem II. Ulászló Jagelló király nevét viseli. Ő a magyar történetből is ismerős, hiszen cseh uralkodói címe mellett magyar király is volt. A termet Benedikt Ried tervezte a tizenötödik század végén. Itt a késő gótika merész szerkesztése és a reneszánsz új formái találkoznak egymással.",
+      "Álljunk meg a terem egyik végében, és nézzünk fel a boltozatra. A kőbordák szinte mozgó hálót rajzolnak a fejünk fölé. A tágas belső térben különösen feltűnő, hogy a boltozat nem sűrű oszlopsorra támaszkodik. A mérnöki tudás és a reprezentáció ugyanabban az építészeti gesztusban válik látványossá.",
+      "A teremben koronázási ünnepségeket, lakomákat, vásárokat és lovagi tornákat is rendeztek. A lovasok számára külön feljáró vezetett ide. Próbáljuk elképzelni a paták zaját és a nézők nyüzsgését ott, ahol ma csendes látogatók sétálnak. A lovaglépcső ettől rögtön értelmet nyer, nem pusztán különös építészeti részlet marad.",
+      "A palota Lajos szárnyához az 1618-as prágai defenesztráció emléke kapcsolódik. A cseh rendek képviselői itt dobtak ki az ablakon két királyi helytartót és egy írnokot. Az esemény a harmincéves háború kibontakozásának egyik fordulópontja lett. Egy palotai ablak így az európai történelem egyik legtöbbet idézett politikai helyszínévé vált.",
+      "Az Ulászló terem később is őrzött állami, ünnepi szerepet. A királyság és a modern köztársaság különböző korszakai ugyanazt a teret használták saját reprezentációjukhoz. Kifelé menet még egyszer forduljunk vissza a boltozat felé. A terem maradandó erejét az adja, hogy egyszerre tud lenyűgözően nagy és részleteiben rendkívül finom lenni."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Állami események vagy kiállítások miatt egyes termek hozzáférése változhat. A palota és a lovaglépcső bejárása nem minden látogatási rendben azonos.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/old-royal-palace-10332"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Old_Royal_Palace_%28Prague%29"
+      },
+      {
+        "title": "Háttér és helytörténet · prague.eu",
+        "url": "https://prague.eu/en/objevujte/prague-castle-old-royal-palace-stary-kralovsky-palac/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Old_Royal_Palace_%28Prague%29",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0906,
+      14.4009
+    ],
+    "img": "images/PRG_006.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Vladislav_Hall%2C_Prague_Castle_20160809_1.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Vladislav_Hall%2C_Prague_Castle_20160809_1.jpg/960px-Vladislav_Hall%2C_Prague_Castle_20160809_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20160901090242",
+    "imageAuthor": "DXR",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "English: An interior view of Vladislav Hall, Prague Castle",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg007",
+    "id": "PRG-007",
+    "num": 7,
+    "name": "07. Szent György bazilika (Bazilika svatého Jiří)",
+    "title": "Szent György bazilika (Bazilika svatého Jiří)",
+    "hungarianName": "Szent György bazilika",
+    "czechName": "Bazilika svatého Jiří",
+    "lat": 50.0912,
+    "lon": 14.4026,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_007_szent_gyorgy_bazilika.html",
+    "short": "Barokk homlokzat mögött román kori templomtér, a korai cseh fejedelemség és Szent Ludmila emlékeivel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Szent György bazilika előtt a vöröses homlokzatot nézzük meg, majd keressük mögötte a két világos tornyot. A külső első pillantásra barokk templomot ígér. A belső tér azonban jóval régebbi világot őriz. Ez a különbség az egyik legjobb példa arra, hogy Prágában egy homlokzatból nem szabad az egész épület korára következtetnünk.",
+      "A templomot I. Vratislav fejedelem alapította a tizedik század elején. A vár második templomaként született, a cseh kereszténység korai központjában. Később bencés apácakolostor kapcsolódott hozzá. A dinasztikus, vallási és közösségi szerep itt kezdettől szorosan összefonódott.",
+      "A ma látható román kori forma jelentős része az 1142-es tűz utáni újjáépítéshez kötődik. A két torony és a masszív falak a korszak sajátos szerkesztését mutatják. Belépve a tömörség, a kő súlya és a visszafogott fény azonnal más hangulatot teremt. A közeli székesegyház magasba törő gótikája után ez különösen erős élmény.",
+      "A hajóban a Přemysl uralkodóház tagjainak síremlékei találhatók. Szent Ludmila emléke ugyancsak fontos része a bazilika történetének. Ezek a helyek a korai cseh fejedelemség családi és vallási kapcsolataihoz vezetnek közelebb. A nemzeti történelem itt sírok, kápolnák és személyes nevek formájában válik kézzelfoghatóvá.",
+      "A vörös homlokzat későbbi barokk átalakítás eredménye. A restaurálások során pedig a román kori belső karakterének megőrzése kapott hangsúlyt. Figyeljük meg, milyen másképpen viselkedik a fény a simább falakon és a kőből formált nyílások körül. Ebben a templomban a díszítés visszafogottsága is képes ünnepélyességet teremteni.",
+      "A bazilikából kilépve érdemes néhány pillanatra újra a székesegyház irányába nézni. A két épület nem ugyanannak a gondolatnak kisebb és nagyobb változata. Eltérő korokból, eltérő liturgikus és dinasztikus szerepekkel érkeztek a mai várudvarba. A közelségük segít megérezni, milyen hosszú és sokrétegű történetet foglal magába a prágai vár."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A bazilika és az egykori kolostor külön tereket alkotnak. Az egykori állandó galériai bemutatást ne tekintsd automatikusan ma is változatlan kiállításnak.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors/objects-for-visitors/st.-georges-basilica-and-convent-10333"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/St._George%27s_Basilica_%28Prague%29"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/St._George%27s_Basilica_%28Prague%29",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0911,
+      14.4013
+    ],
+    "img": "images/PRG_007.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Czech-03809_-_St._George%27s_Basilica_%2832204970373%29.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Czech-03809_-_St._George%27s_Basilica_%2832204970373%29.jpg/500px-Czech-03809_-_St._George%27s_Basilica_%2832204970373%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20180301142025",
+    "imageAuthor": "Dennis G. Jarvis",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "imageDescription": "English: St. George's Basilica is the oldest church in Prague Castle. It was founded by Prince Vratislav (915-921) in 920. The basilica was then enlarged in 973 with the construction of St. George's Benedictine Convent. In 1142 St. George's Basilica had to be rebuilt following a fire. The Baroque facade that we see today was added in 1671-1691. Inside the church are several tombs of major historic importance. There is the tomb of St. Ludmila, the saint and widow of the 9th century ruler Prince Borivoj. Also buried in the basilica are Prince Vratislav and Boleslav II.",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg008",
+    "id": "PRG-008",
+    "num": 8,
+    "name": "08. Strahovi kolostor és könyvtár (Strahovský klášter)",
+    "title": "Strahovi kolostor és könyvtár (Strahovský klášter)",
+    "hungarianName": "Strahovi kolostor és könyvtár",
+    "czechName": "Strahovský klášter",
+    "lat": 50.086,
+    "lon": 14.39,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_008_strahovi_kolostor_es_konyvtar.html",
+    "short": "Premontrei apátság két pompás történeti könyvtárteremmel, freskókkal és régi ritkasággyűjteménnyel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A strahovi kolostorhoz érve most kissé távolabb kerülünk a vár legsűrűbb forgalmától. A premontrei apátság története a tizenkettedik századig nyúlik vissza. A szerzetesi élet, az oktatás és a könyvkultúra hosszú időn át együtt alakította a hely arculatát. Már a kolostori udvarban érdemes lassítani, mert a könyvtár termei is figyelmes nézelődést kívánnak.",
+      "A Teológiai terem a tizenhetedik században kapta meg gazdag barokk formáját. A fehér stukkók, a festett boltozat és a könyvállványok sűrű együttese szinte körbeöleli a tekintetet. A földgömbök a tudás világiasabb területeire is utalnak. A terem így azt mutatja, hogy a kolostori tanulás a vallási szövegeken túl is tág látóhatárt keresett.",
+      "A Filozófiai terem későbbi, nagyobb és más arányú tér. Magas könyvszekrényei között a mennyezeti festmény nyitja meg a látvány felső részét. Franz Anton Maulbertsch freskója az emberi megismerés történetéhez kapcsolódik. Előbb a teljes kompozíciót próbáljuk befogadni, majd engedjük, hogy egy-egy jelenet magához vonzza a figyelmünket.",
+      "A könyvtár értéke azonban nem áll meg a látványos enteriőröknél. A kéziratok, régi nyomtatványok és gyűjtemények a gondosan továbbadott tudás történetét őrzik. Egy kötet létrehozása és megőrzése hosszú évszázadokon át jelentős munkát igényelt. A polcokra ezért érdemes emberek sok nemzedékének figyelmeként is tekinteni.",
+      "A folyosókon a ritkasággyűjtemény további különlegességeket kínál. A tudományos kíváncsiság és a csodálkozás régi formái itt egymás mellett jelennek meg. A történelmi gyűjtők számára a természet, a távoli országok és a különös tárgyak ugyanannak a felfedezendő világnak részei voltak. A mai múzeumi kategóriák ebben a környezetben még kevésbé választják szét a tapasztalatokat.",
+      "A könyvtárterek védelme miatt az általános látogatás rendszerint az ajtókból nyíló megtekintést jelenti. A termekbe való tényleges belépés külön vezetett programhoz kötődhet. Ezt érdemes előre tudni, hogy a várakozásunk a hely valódi használati rendjéhez igazodjon. A kolostorból kilépve a város felé nyíló kilátás szép folytatása lehet a könyvek között megtett képzeletbeli utazásnak."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Az általános önálló könyvtárlátogatás a két terem ajtóból történő megtekintését jelenti. A könyvtártermekbe ténylegesen belépő vezetett program külön feltételekkel foglalható. A koordináta a kolostoregyüttest jelöli.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.strahovskyklaster.cz",
+        "url": "https://www.strahovskyklaster.cz/en/architecture/library-halls"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Strahov_Monastery"
+      },
+      {
+        "title": "Háttér és helytörténet · www.strahovskyklaster.cz",
+        "url": "https://www.strahovskyklaster.cz/en/for-visitors/online-tickets"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Strahov_Monastery",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0864,
+      14.3897
+    ],
+    "img": "images/PRG_008.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Strahov_Theological_Hall%2C_Prague_-_7565.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Strahov_Theological_Hall%2C_Prague_-_7565.jpg/960px-Strahov_Theological_Hall%2C_Prague_-_7565.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20130924081007",
+    "imageAuthor": "Jorge Royan",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageDescription": "English: Strahov Theological Hall - Original Baroque Cabinets, Prague",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg009",
+    "id": "PRG-009",
+    "num": 9,
+    "name": "09. Prágai Loreta (Pražská Loreta)",
+    "title": "Prágai Loreta (Pražská Loreta)",
+    "hungarianName": "Prágai Loreta",
+    "czechName": "Pražská Loreta",
+    "lat": 50.089279,
+    "lon": 14.391861,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_009_pragai_loreta.html",
+    "short": "Barokk zarándokhely az itáliai szent ház másolatával, harangjátékkal és a Prágai Nap kincstári alkotásával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Loreta homlokzata előtt először a középtornyot és a kétoldalt elnyúló épületszárnyakat nézzük meg. A zárt együttes egy barokk zarándokhely gondosan szervezett világába hív. A bejárat mögött udvar, kápolnák és kerengő várja a látogatót. A városnézés során itt a látvány mellett a vallási utánzás és az emlékezés sajátos formájával is találkozunk.",
+      "Az udvar közepén álló Szent Ház az itáliai Loreto kegyhelyének mintáját követi. A hagyomány a názáreti Mária otthonához kapcsolja az eredeti szent házat. Prágában ennek másolata köré alakult ki a tizenhetedik századi zarándokközpont. Az építészeti másolat a távoli szent hely élményét hozta közelebb az ide érkező hívekhez.",
+      "Az alapításhoz Kateřina Benigna Lobkowicz neve kapcsolódik. A főúri támogatás és a barokk katolikus megújulás egymást erősítette a hely fejlődésében. A kerengő kápolnái és a templom különböző áhítati megállókat kínáltak. Séta közben érdemes megfigyelni, hogyan szervezi a látogatás ritmusát ez a körbejárható, udvar köré rendezett tér.",
+      "A Loreta harangjátéka a hely egyik legismertebb hangélménye. A torony huszonhét harangja dallamot is meg tud szólaltatni. Ha éppen halljuk a játékot, álljunk meg egy olyan ponton, ahol az udvar és a torony egyszerre látható. A hang ettől nem háttérzaj marad, hanem az épületegyüttes érzékelésének részévé válik.",
+      "A kincstár leghíresebb darabja a Prágai Nap nevű gyémántos monstrancia. Az aranyozott sugarak és a kövek együtt a fény tudatosan megsokszorozott hatását keltik. A tárgy eredetileg liturgikus célt szolgált, ezért nem pusztán udvari ékszerként érdemes szemlélni. A felajánlás, a hit és a művészi kézművesség ugyanabban az alkotásban találkozik.",
+      "A részletek megtekintése után térjünk vissza gondolatban a csendes udvarhoz. A barokk zarándokhely a gazdag látványt és az elmélyülés lehetőségét együtt kínálta. A város legsűrűbb útvonalaihoz képest itt más ritmusban haladhatunk. Érdemes ezt a nyugalmat továbbvinni a közeli Újvilág utca kisebb léptékű házai közé is."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A kincstár, a templom és az udvar az intézmény látogatási rendjéhez igazodik. A harangjáték időrendhez és üzemeltetéshez kötött, nem szól folyamatosan.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/loreto-loreta/"
+      },
+      {
+        "title": "Háttér és helytörténet · cs.wikipedia.org",
+        "url": "https://cs.wikipedia.org/wiki/Loreta_%28Praha%29"
+      },
+      {
+        "title": "Háttér és helytörténet · www.loreta.cz",
+        "url": "https://www.loreta.cz/en"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/loreto-loreta/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0886,
+      14.3934
+    ],
+    "img": "images/PRG_009.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hrad%C4%8Dany_Loreta_3.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Hrad%C4%8Dany_Loreta_3.jpg/960px-Hrad%C4%8Dany_Loreta_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20221201073716",
+    "imageAuthor": "VitVit",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Čeština: Praha 1 - Hradčany Loreta",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg010",
+    "id": "PRG-010",
+    "num": 10,
+    "name": "10. Újvilág utca (Nový Svět)",
+    "title": "Újvilág utca (Nový Svět)",
+    "hungarianName": "Újvilág utca",
+    "czechName": "Nový Svět",
+    "lat": 50.091291,
+    "lon": 14.389612,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_010_ujvilag_utca.html",
+    "short": "Csendesebb, kisvárosias utcák a Hradzsinban, alacsony házakkal, régi házjelekkel és lakónegyedi hangulattal.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Az Újvilág utcában a vár közelében mégis szinte kisvárosias környezet fogad. A keskeny úttest, a kőburkolat és az alacsonyabb házak más léptéket adnak a sétának. A Nový Svět elnevezés egy régi, a vár szolgálatához kapcsolódó településrész emlékét őrzi. Itt most érdemes félretenni a legnagyobb műemlékek keresését, és a hétköznapi építészeti részleteket figyelni.",
+      "A környéken eredetileg szerényebb megélhetésű emberek is laktak. A vár körüli munka és ellátás sok, a reprezentatív palotákban láthatatlan feladatot igényelt. Az alacsony házak ezért a nagy uralkodói központ másik oldalát mutatják. A történelmi város itt nem ünnepi színpadként, hanem lakóhelyként jelenik meg.",
+      "Nézzük meg az ajtók fölötti házjeleket és a homlokzatok eltérő színeit. A régi városokban a házakat sokáig képi jelek alapján is azonosították. Ezek a motívumok ma is személyesebb kapcsolatot teremtenek az épületekkel, mint egy puszta házszám. Egy jól megfigyelt jel gyakran tovább megmarad az emlékezetünkben, mint egy egész utcasor.",
+      "Az utca kanyarjai miatt a látvány mindig csak részletekben tárul fel. Néhány lépés után újabb kapu, falrészlet vagy keskenyebb szakasz jelenik meg. A kis eltérések ettől folyamatosan mozgásban tartják a figyelmet. Próbáljuk meg észrevenni, hogyan változik egy ház aránya, amikor egészen közelről vagy a kanyar másik oldaláról nézzük.",
+      "A negyed később művészek és alkotók kedvelt környezetévé is vált. A hely hangulata sokat köszönhet annak, hogy nem vesztette el teljesen lakónegyedi jellegét. A csend azonban nem azt jelenti, hogy a környék elhagyott vagy szabadon használható díszlet lenne. A kapuk mögött ma is magánterek és mindennapi életek vannak.",
+      "A legjobb, ha itt rövid időre egyszerűen csak sétálunk. Figyeljük a kövek kopását, a lejtést és az utcára eső fény változását. A nagy prágai látványosságok mellett ez a kisebb tér olyan részleteket adhat, amelyeket később különösen szívesen idézünk fel. Az Újvilág nem külön történelmi korszakot, inkább a város emberközeli léptékét mutatja meg."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Lakónegyed is, a magánudvarok nem általánosan látogathatók. A koordináta az utca egyik tájékozódási pontja, nem egy külön belépős műemlék.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/novy-svet-new-world/"
+      },
+      {
+        "title": "Háttér és helytörténet · cs.wikipedia.org",
+        "url": "https://cs.wikipedia.org/wiki/Nov%C3%BD_Sv%C4%9Bt_%28Hrad%C4%8Dany%29"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/novy-svet-new-world/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0917,
+      14.3886
+    ],
+    "img": "images/PRG_010.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Praha%2C_Hradcany_-_Novy_svet_%28od_cp_11_k_hradbam%29.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Praha%2C_Hradcany_-_Novy_svet_%28od_cp_11_k_hradbam%29.jpg/500px-Praha%2C_Hradcany_-_Novy_svet_%28od_cp_11_k_hradbam%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080614170150",
+    "imageAuthor": "Matěj Baťha",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "imageDescription": "Čeština: Praha, Hradčany - ulice Nový svět, pohled od křižovatky s Kapucínskou ke křižovatce s Černínskou",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg011",
+    "id": "PRG-011",
+    "num": 11,
+    "name": "11. Petřín kilátótorony (Petřínská rozhledna)",
+    "title": "Petřín kilátótorony (Petřínská rozhledna)",
+    "hungarianName": "Petřín kilátótorony",
+    "czechName": "Petřínská rozhledna",
+    "lat": 50.083544,
+    "lon": 14.39505,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_011_petrin_kilatotorony.html",
+    "short": "Az 1891-es jubileumi kiállítás acélrácsos kilátója, párizsi ihletéssel és a dombtetőről nyíló prágai panorámával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Petřín tornyához érve azonnal felismerhető a párizsi ihletés. A karcsú acélrácsos szerkezet az Eiffel torony gondolatát ültette át egy prágai dombtetőre. Itt azonban a magaslat maga is hozzájárul a kilátás élményéhez. A torony és a domb együtt jóval nagyobb térbeli hatást kelt, mint amit az építmény mérete önmagában ígér.",
+      "A kilátó 1891-ben, a prágai jubileumi kiállítás idején készült. Megépítésében a Cseh Turisták Klubjának kezdeményezése fontos szerepet játszott. A korszakban a kirándulás, a technika és a városi szabadidő új lehetőségei találkoztak. A torony ebből a lelkes, felfedező hangulatból született.",
+      "Nézzük meg alulról a tartószerkezetet, mielőtt felfelé indulnánk. Az acél elemei nyitva hagyják a látványt, mégis világosan kirajzolják az épület rendjét. A szerkezet itt nem rejtett háttér, hanem a megjelenés legfontosabb része. Az ember a saját mozgásával együtt érzékeli a rácsok és a környezet folyamatosan változó viszonyát.",
+      "A feljutás során a város fokozatosan emelkedik ki a fák fölött. Fentről a vár, a Moldva ívei és a történelmi városrészek könnyebben összekapcsolhatók. Tiszta időben a távolabbi cseh tájra is messzire elláthatunk. Azt azonban ne várjuk, hogy a teljes ország szó szerint egyetlen panorámában megjelenjen előttünk.",
+      "A kilátás megértéséhez keressünk először három biztos tájékozódási pontot. A vár, a Károly híd és az Óváros tornyai jó kiindulást adhatnak. Utána már a kevésbé ismert városrészek is viszonyíthatók hozzájuk. A panoráma így nem puszta háztetőtenger, hanem a korábban bejárt és a még előttünk álló helyek térképe lesz.",
+      "A torony körüli Petřín parkjai önmagukban is megérnek egy sétát. A történethez a századforduló városi kirándulókultúrája ugyanúgy hozzátartozik, mint az acélszerkezet technikája. A feljutás és a lift használata az aktuális üzemeltetési feltételekhez igazodik. Indulás előtt ellenőrizzük a külön látogatási megjegyzést, mert a torony időszakos zárása nem feltétlenül jelenti az egész domb lezárását."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "2026. november 12-én ellenőrzött közlemény alapján a Petřín kilátó 2026. november 7. és 14. között zárva tart. Későbbi látogatás előtt ellenőrizd a friss tájékoztatást. A liftnek és az egyes kilátószinteknek eltérő hozzáférési feltételei vannak, a sikló aktuális közlekedését külön ellenőrizd.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/petrin-tower-petrinska-rozhledna/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Pet%C5%99%C3%ADn_Lookout_Tower"
+      },
+      {
+        "title": "Háttér és helytörténet · praguecitytourism.com",
+        "url": "https://praguecitytourism.com/care-for-cultural-heritage-and-operation-of-important-monuments/petrin-tower/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Pet%C5%99%C3%ADn_Lookout_Tower",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0835,
+      14.3951
+    ],
+    "img": "images/PRG_011.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADnsk%C3%A1_rozhledna%2C_Prague.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Pet%C5%99%C3%ADnsk%C3%A1_rozhledna%2C_Prague.jpg/500px-Pet%C5%99%C3%ADnsk%C3%A1_rozhledna%2C_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20170912175045",
+    "imageAuthor": "Ivan Korostelev",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Русский: Petřínská rozhledna, Prague, 2016",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg012",
+    "id": "PRG-012",
+    "num": 12,
+    "name": "12. Károly híd (Karlův most)",
+    "title": "Károly híd (Karlův most)",
+    "hungarianName": "Károly híd",
+    "czechName": "Karlův most",
+    "lat": 50.086501,
+    "lon": 14.411724,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_012_karoly_hid.html",
+    "short": "Középkori moldvai kőhíd barokk szoborgalériával, Nepomuki Szent János emlékével és ikonikus városképekkel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Károly hídra lépve most néhány pillanatra a folyóra figyeljünk. A Moldva két partját összekötő átkelő hosszú ideig a város életének nélkülözhetetlen része volt. Ma gyalogosok sétálnak rajta, régen azonban áruk, állatok és járművek is ezen az útvonalon haladtak. A hídról nyíló látvány mellett ezért a hely mindennapi közlekedési jelentőségét is érdemes elképzelni.",
+      "Az új kőhíd építése IV. Károly támogatásával 1357-ben kezdődött. Elődje, a Judit híd egy nagy árvízben súlyosan megrongálódott. Az új építmény tartós kapcsolatot teremtett a városrészek között. Egyúttal az uralkodói útvonalnak is része lett, amely az Óvároson át a várhoz vezetett.",
+      "A szobrok többsége jóval később, főként a barokk korban került a hídra. Ettől az átkelő szinte szabadtéri szoborgalériává alakult. Sok ma látható alkotás másolat, mert az eredetieket a szabadban erős károsodás érte. A másolatok ezért nem a történet meghamisítását, hanem a képi együttes és a műtárgyak együttes megőrzését szolgálják.",
+      "Nepomuki Szent János figuráját különösen sok látogató keresi. A szent emlékezete a folyóba vetés történetéhez és a csillagok motívumához kapcsolódik. A gyónási titokról szóló ismert elbeszélés mellett politikai és egyházi konfliktusok is hozzátartoztak az életéhez. A legendák és a történeti háttér itt egymás mellett formálták az emlékezetet.",
+      "A híd két végén álló tornyok különböző irányokból keretezik a várost. Álljunk meg néha úgy, hogy nem a vár felé, hanem az Óváros irányába nézünk. A folyó, a partfalak és a tornyok együtt egészen más kompozíciót adnak. A legismertebb fényképezési irányokon túl így újabb prágai városképeket fedezhetünk fel.",
+      "A hídon a tömeg könnyen magával sodorhat bennünket. Érdemes egy nyugodtabb szakaszon félreállni, és megfigyelni a szobrok magasságát, a kövek felületét és a víz mozgását. A kora reggeli vagy esti fény különösen sokat változtathat az élményen. Ugyanaz a híd egyetlen napon belül is egészen eltérő arcát tudja megmutatni."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A pont a híd középső részét jelöli. A hídtornyok látogatása külön program és belépő lehet, a gyalogos átkelés önmagában nem toronybelépés.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0865,
+      14.4114
+    ],
+    "img": "images/PRG_012.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prague_Charles_Bridge_View_NW-01.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Prague_Charles_Bridge_View_NW-01.jpg/960px-Prague_Charles_Bridge_View_NW-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20190310202325",
+    "imageAuthor": "Radler59",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Deutsch: Blick von der Karlsbrücke zum Smetana-Museum und Altstädter Wasserturm, (Novotného lávka 1) in Prag This is a photo of a cultural monument of the Czech Republic,number: 38320/1-105.Památkový katalog · MIS · hledat obrázky · hledat seznamy · Wikidata This is a photo of a cultural monument of the Czech Republic,number: 38174/1-14.Památkový katalog · MIS · hledat obrázky · hledat seznamy · Wikidata",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg013",
+    "id": "PRG-013",
+    "num": 13,
+    "name": "13. Kisoldal és központi tere (Malá Strana a Malostranské náměstí)",
+    "title": "Kisoldal és központi tere (Malá Strana a Malostranské náměstí)",
+    "hungarianName": "Kisoldal és központi tere",
+    "czechName": "Malá Strana a Malostranské náměstí",
+    "lat": 50.088269,
+    "lon": 14.404333,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_013_kisoldal_es_kozponti_tere.html",
+    "short": "A vár alatti palotás negyed központja, barokk látványtengelyekkel, kapualjakkal és élő városi forgalommal.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Kisoldal központjában a Malostranské tér több irányból is magához gyűjti a környék utcáit. A Károly híd felől érkező út itt már a várhegy felé fordul. A lejtők, a villamosok és a történelmi homlokzatok együtt különösen élő városi környezetet adnak. A tér nem csupán látványosság, hanem ma is használt közlekedési és találkozási hely.",
+      "A Malá Strana a középkorban önálló városként fejlődött. Mai arculatában azonban a későbbi paloták és a barokk átépítések különösen hangsúlyosak. Az 1541-es nagy tűzvész és az azt követő újjáépítések jelentősen alakították a környéket. A most látható városszövet így a régebbi utcavonalak és a későbbi reprezentatív épületek találkozásából született.",
+      "A tér közepén álló Szent Miklós templom két részre tagolja a környezetet. Kupolája és tornya több közeli utcából is feltűnik. Érdemes megfigyelni, hogyan változik a tömege, miközben a tér egyik oldaláról a másikra sétálunk. A templom nemcsak díszíti a teret, hanem szervezi is annak egész látványát.",
+      "A környező paloták egykori tulajdonosai udvari, politikai és egyházi kapcsolatokkal rendelkező családok voltak. A díszes bejáratok ezért rangot és társadalmi jelenlétet jeleztek. Nézzük meg, hogyan kapnak hangsúlyt az emeleti ablakok és a középrészek. Az utcai homlokzatok mögött sokszor udvarok és kertek rejtőznek, amelyek a közterületről alig sejthetők.",
+      "A Kisoldal hangulatát a nagy épületek mellett a kisebb részletek adják. Egy házjel, egy kapualj vagy egy rövid lépcsős utca egészen más ritmust vihet a sétába. Ha a fő útvonaltól néhány lépéssel eltávolodunk, gyakran nyugodtabb környezetbe jutunk. A várhegy közelsége azonban szinte minden irányban érezhető marad.",
+      "Most válasszunk egy olyan pontot, ahonnan a templom kupolája és a tér valamelyik palotája együtt látható. A léptékük közötti különbség jól mutatja a barokk város tudatos látványépítését. A következő állomáson a Szent Miklós templom belsejében folytatjuk ezt a megfigyelést. Itt még hagyjunk időt arra, hogy a tér élő forgatagát is a város történetének részeként érzékeljük."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A koordináta a Malostranské tér keleti részét jelöli. Élő városi tér villamosforgalommal, a paloták belső terei nem általánosan szabadon bejárhatók.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/malostranske-square/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Mal%C3%A1_Strana"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/malostranske-square/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0881,
+      14.4042
+    ],
+    "img": "images/PRG_013.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:19.7.16_Prague_Castle_12_%2828395711206%29.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/19.7.16_Prague_Castle_12_%2828395711206%29.jpg/960px-19.7.16_Prague_Castle_12_%2828395711206%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20170420024531",
+    "imageAuthor": "donald judge",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "imageDescription": "English: 19.7.16 Prague Castle",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg014",
+    "id": "PRG-014",
+    "num": 14,
+    "name": "14. Kisoldali Szent Miklós templom (Kostel svatého Mikuláše)",
+    "title": "Kisoldali Szent Miklós templom (Kostel svatého Mikuláše)",
+    "hungarianName": "Kisoldali Szent Miklós templom",
+    "czechName": "Kostel svatého Mikuláše",
+    "lat": 50.088,
+    "lon": 14.4032,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_014_kisoldali_szent_miklos_templom.html",
+    "short": "A Dientzenhoferek barokk temploma mozgalmas belső térrel, freskókkal és Mozart orgonajátékának emlékével.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A kisoldali Szent Miklós templomba lépve először álljunk meg a hajóban, és hagyjuk, hogy a teljes tér hasson ránk. A falak, a pillérek és a boltozatok szinte hullámzó mozgást keltenek. A barokk építészet itt nem egyetlen homlokzati díszben, hanem az egész tér megszervezésében válik érzékelhetővé. A fény és a freskók ugyanennek az élménynek részei.",
+      "Az épület a Dientzenhofer család és Anselmo Lurago nevéhez kapcsolódik. Kryštof Dientzenhofer, majd fia, Kilián Ignác folytatta a nagy építkezés különböző szakaszait. A templom a jezsuita rend és a barokk katolikus megújulás prágai világában született. Elődje jóval szerényebb középkori templom volt ugyanazon a központi helyen.",
+      "Nézzünk fel a kupola irányába, és kövessük a festett felületek határait. A valós építészet és a festészet tudatosan egészíti ki egymást. Nem mindig azonnal világos, hol ér véget a tényleges fal, és hol kezdődik a képi tér. A templom így a látogató érzékelését is aktívan alakítja.",
+      "A márványhatású felületek, az aranyozás és a szobrok a részletek szintjén is gazdag világot alkotnak. Érdemes egyetlen oltárnál megállni, mielőtt újra a teljes térre nézünk. A kisebb kompozíciókban ugyanaz a mozgás és drámaiság jelenik meg, mint az egész épületben. A részletek és az összkép ezért kölcsönösen erősítik egymást.",
+      "Mozart prágai tartózkodásához a templom orgonája is kapcsolódik. Az itt őrzött zenei emlékezet a város különösen eleven Mozart kultuszának egyik része. Egy ilyen térben a zene hatása könnyebben elképzelhető, még akkor is, ha éppen csend van. Gondoljunk arra, hogyan töltheti be a hang a kupola alatti nagy belsőt.",
+      "A templomot ne keverjük össze az Óvárosi téren álló másik Szent Miklós templommal. A közeli harangtorony látogatása is külön helyszínként és eltérő rend szerint működik. Kifelé menet forduljunk vissza egyszer a hajó tengelyében. A barokk tér hatása ekkor gyakran még erősebb, mert már felismerjük azokat a részleteket, amelyek az első pillanatban egyetlen gazdag látvánnyá olvadtak össze."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Ez a kisoldali templom, nem az Óvárosi tér azonos védőszentű temploma. A szomszédos harangtorony külön üzemeltetett látogatóhely. Szertartások és koncertek módosíthatják a belső bejárást.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.stnicholas.cz",
+        "url": "https://www.stnicholas.cz/en/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/St._Nicholas_Church_%28Mal%C3%A1_Strana%29"
+      },
+      {
+        "title": "Háttér és helytörténet · prague.eu",
+        "url": "https://prague.eu/en/objevujte/st-nicholas-church-at-mala-strana-kostel-sv-mikulase-mala-strana/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/St._Nicholas_Church_%28Mal%C3%A1_Strana%29",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.088,
+      14.4038
+    ],
+    "img": "images/PRG_014.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Praag%2C_Tsjechi%C3%AB_Aug_17%2C_2019_05-12-38_PM.jpeg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Praag%2C_Tsjechi%C3%AB_Aug_17%2C_2019_05-12-38_PM.jpeg/500px-Praag%2C_Tsjechi%C3%AB_Aug_17%2C_2019_05-12-38_PM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20190906170655",
+    "imageAuthor": "Bobby-John de Bot",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Praag, Tsjechië, August 2019",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg015",
+    "id": "PRG-015",
+    "num": 15,
+    "name": "15. Kampa szigete és a sárga pingvinek (Kampa)",
+    "title": "Kampa szigete és a sárga pingvinek (Kampa)",
+    "hungarianName": "Kampa szigete és a sárga pingvinek",
+    "czechName": "Kampa",
+    "lat": 50.084201,
+    "lon": 14.408022,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_015_kampa_szigete_es_a_sarga_pingvinek.html",
+    "short": "Čertovka, malomkerekek, folyóparti park és modern művészet a Museum Kampa környezetében.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Kampára a Károly híd kisoldali végének közeléből is könnyen leereszkedhetünk. A folyópart és a Čertovka csatorna közé fogott terület a nagy átkelőhöz képest nyugodtabb világot kínál. Északon házak és kisebb utcák, délebbre parkos részek követik egymást. Érdemes úgy bejárni, hogy közben hol a folyó, hol a keskenyebb vízág felé fordulunk.",
+      "A Čertovka neve Ördögpatakként is ismert a városi történetekben. A csatorna mellett a régi malmok és vízkerekek a gyakorlati városi életre emlékeztetnek. A víz itt nemcsak romantikus látványelem, hanem energia és munkalehetőség is volt. Figyeljük meg, milyen közel épültek a házak a vízhez.",
+      "A parkos környezetben a folyó nagyobb léptéke fokozatosan újra megjelenik. A túlpart házsora és a hidak jó viszonyítási pontot adnak. A sétányon néhány perc alatt más nézőpontból láthatjuk ugyanazt a várost, amelyet korábban a hídról figyeltünk. A partvonalhoz közel kerülve a víz mozgása sokkal erősebben alakítja az élményt.",
+      "A Museum Kampa az egykori Sova malmok épületegyüttesében működik. A modern művészet itt történeti ipari környezetet kapott. Az épület és a körülötte megjelenő alkotások együtt mutatják, hogyan találhat új szerepet egy régebbi városi helyszín. A múzeum meglátogatása a szabadtéri sétánál jóval több időt is megérhet.",
+      "A folyó mellett sorakozó sárga pingvinek a Cracking Art alkotócsoport munkájához tartoznak. A játékos figurák mögött környezeti kérdésekre irányuló figyelem is áll. A sorban álló madarak egyszerre tűnnek vidámnak és kissé idegennek a városi vízparton. Érdemes távolabbról is megnézni őket, hogy a mű és a folyó kapcsolata együtt jelenjen meg.",
+      "Kampa legjobb élménye sokszor a különböző részletek közötti lassú átmenetből adódik. A malomkerék, a park, a modern szobrok és a folyópart ugyanannak a sétának eltérő állomásai. Ne csak egyetlen fényképezési pontot keressünk, hanem hagyjunk időt a környezet változásaira is. A közelben fekvő Lennon falhoz innen már egy egészen másfajta városi történet vezet tovább."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A pont a Kampa parkos területét jelöli. A pingvinek a Museum Kampa folyóparti oldalán vannak, nem közvetlenül a malomkeréknél. A múzeum kiállításainak külön látogatási rendjük van.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.visitczechia.com",
+        "url": "https://www.visitczechia.com/en-us/things-to-do/places/landmarks/urban-architecture/c-prague-kampa-island"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Kampa_Island"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://www.visitczechia.com/en-us/things-to-do/places/landmarks/urban-architecture/c-prague-kampa-island",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0847,
+      14.4095
+    ],
+    "img": "images/PRG_015.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prag%2C_Museum_Kampa_--_2019_--_6715.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Prag%2C_Museum_Kampa_--_2019_--_6715.jpg/960px-Prag%2C_Museum_Kampa_--_2019_--_6715.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20190711044537",
+    "imageAuthor": "Dietmar Rabich",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Deutsch: Museum Kampa (und Skulptur „Gelbe Pinguine“ (Cracking Art Group, 2008)), Prag, Tschechische Republik English: Kampa Museum (and Sculpture “Yellow Penguins” (Cracking Art Group, 2008)), Prague, Czech Republic Čeština: Museum Kampa (a plastika „Žlutí tučňáci“ (Cracking Art Group, 2008)), Praha, Česká republika statue: Yellow penguins Title Yellow penguins Instance of statue and group of sculptures Author Cracking Art Inception 2008 Made from material plastic Located in the administrative territorial entity Malá Strana and Prague 1 art museum: Museum Kampa Title Museum Kampa Instance of art museum and event venue Inception 2003 Located in the administrative territorial entity Prague 1",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül.",
+    "imageNote": "A Museum Kampa folyóparti környezete, a part mentén a sárga pingvinekkel. A pingvininstalláció alkotója a Cracking Art."
+  },
+  {
+    "key": "prg016",
+    "id": "PRG-016",
+    "num": 16,
+    "name": "16. Lennon fal (Lennonova zeď)",
+    "title": "Lennon fal (Lennonova zeď)",
+    "hungarianName": "Lennon fal",
+    "czechName": "Lennonova zeď",
+    "lat": 50.086148,
+    "lon": 14.406607,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_016_lennon_fal.html",
+    "short": "Színes emlékhely Lennon zenéjével, békeüzenetekkel és a szabad megszólalás prágai történetével.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Lennon falnál a legfontosabb első benyomás a felületek sűrűsége. Színek, arcok, rövid üzenetek és egymásra került nyomok töltik meg a falat. Ez a látvány nem egyetlen művész egyszeri kompozíciója. Hosszú idő alatt kialakult, újra és újra átértelmezett városi emlékhelyről van szó.",
+      "John Lennon 1980-as halála után a fal környékén a zenészhez kapcsolódó emlékező képek és feliratok jelentek meg. A Beatles zenéje és Lennon békeüzenete sokak számára a szabadabb világ képét jelentette. Az államszocializmus éveiben az ilyen megszólalások politikai jelentést is kaphattak. Egy falra írt mondat így jóval többet hordozhatott egyszerű rajongói gesztusnál.",
+      "A feliratokat időnként eltüntették, majd újabbak jelentek meg helyettük. Ettől a fal a megújuló megszólalás jelképévé vált. A történetben nem a változatlan felület, hanem éppen az ismételt visszatérés lett fontos. A ma látható képet ezért nem szabad a nyolcvanas évek érintetlen állapotának tekintenünk.",
+      "Álljunk meg kissé távolabb, és figyeljük meg, hogyan rendeződik össze a sok külön részlet. Utána válasszunk egyetlen feliratot vagy arcot, amely közelebb hív. A teljes felület és az apró jel közötti váltás itt különösen erős. A fal egyszerre tud tömeges közös üzenet és nagyon személyes megszólalás lenni.",
+      "A hely látogatása nem jelenti automatikusan azt, hogy szabadon új feliratot készíthetünk. A tulajdonos és az üzemeltetés szabályai idővel változtak, a felületet szervezett művészeti programok is alakítják. A megőrzés és a megújulás közötti egyensúly ma is része a történetének. A legjobb, ha a falat először figyelmes nézőként közelítjük meg.",
+      "A környező tér és a közeli kisoldali utcák csendje érdekes hátteret ad a színes felületnek. Ha a fénykép után még néhány percet maradunk, a hely kevésbé puszta turistajelképként hat. A zenéről, a szabadságvágyról és a megszólalás lehetőségéről szóló történet személyesebbé válhat. Innen továbbindulva a történelmi város már a közelmúlt emlékeivel is gazdagabb lesz."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A képen korábbi, 2014-es állapot látható. A fal felülete azóta változott és továbbra is változhat. A megtekintés nem jelent szabad falfestési engedélyt, kövesd a helyi táblákat és szabályokat.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/john-lennon-wall-zed-johna-lennona/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lennon_Wall"
+      },
+      {
+        "title": "Háttér és helytörténet · www.visitczechia.com",
+        "url": "https://www.visitczechia.com/en-us/b2b/scandinavia/press-and-media/archive/2019/10/p-sc-prague-lennon-wall-gallery"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/john-lennon-wall-zed-johna-lennona/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0858,
+      14.4082
+    ],
+    "img": "images/PRG_016.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lennon_Wall%2C_August_2014.jpg",
+    "imageDownload": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Lennon_Wall%2C_August_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20180928025748",
+    "imageAuthor": "Spaul57",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "English: The John Lennon Wall in the summer of 2014, shortly before it was destroyed in November 2014",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül.",
+    "imageNote": "A Lennon fal korábbi, 2014-es felülete. A mai állapot eltérhet."
+  },
+  {
+    "key": "prg017",
+    "id": "PRG-017",
+    "num": 17,
+    "name": "17. Óvárosi tér (Staroměstské náměstí)",
+    "title": "Óvárosi tér (Staroměstské náměstí)",
+    "hungarianName": "Óvárosi tér",
+    "czechName": "Staroměstské náměstí",
+    "lat": 50.087525,
+    "lon": 14.421105,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_017_ovarosi_ter.html",
+    "short": "A történelmi város szíve Husz János emlékművével, polgárházakkal és az 1621-es megtorlás emlékével.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Az Óvárosi térre érve érdemes először megállni a szélén, és végignézni a teljes nyitott teret. A gótikus tornyok, a városháza és a különböző korú polgárházak együtt adják Prága egyik legsűrűbb történelmi városképét. A tér központi szerepe a középkori kereskedőváros világába nyúlik vissza. A mai turistaforgalom helyén egykor piac, közélet és ünnepi események találkoztak.",
+      "A homlokzatokon sokféle korszakot fedezhetünk fel. A Kőharang háza gótikus emléket őriz, a Kinský palota rokokó világa későbbi reprezentációról beszél. A házsor mögött gyakran régebbi szerkezetek rejtőznek, mint amit a külső mutat. A tér így nem egyetlen stílus szépen megőrzött együttese, hanem hosszú városi változások közös eredménye.",
+      "Husz János emlékműve 1915-ben, a reformátor halálának ötszázadik évfordulóján került a térre. A nagy szoborcsoport a cseh vallási és nemzeti emlékezet fontos helye. Nézzük meg, hogyan különül el Husz alakja a körülötte csoportosuló figuráktól. Az alkotás nemcsak egy személyt, hanem követőket, vereséget és későbbi reményt is megjelenít.",
+      "A városháza közelében a burkolatba helyezett keresztek az 1621-ben kivégzett vezetők emlékét jelzik. A fehérhegyi vereség utáni megtorlás a cseh történelem egyik nagy törése volt. A tér vidám, mozgalmas mai képe mellett ez a részlet különösen erős ellenpont. Érdemes megállni előtte, mert a városi burkolatban gyakran könnyebb elkerülni egy emléket, mint egy magas szobrot.",
+      "A Týn templom tornyai szinte mesebeli sziluettet adnak a térnek. A városháza órája előtt közben rendszeresen kisebb tömeg gyűlik össze. A különböző látványok miatt könnyű egyik irányból a másikba sodródni. Most inkább keressünk egy nyugodtabb pontot, és figyeljük meg, hogyan keretezik a házak ezt a közös városi teret.",
+      "A tér jelentőségét az adja, hogy a nagy történelmi fordulatok és a mindennapi élet újra meg újra ugyanitt találkoztak. Egy kávéházi asztal, egy koncert vagy a harangszó is hozzáadhat valamit ehhez az élményhez. A következő megállókban külön nézzük meg az Orlojt és a Týn templomot. Előtte érdemes megőrizni a teljes tér képét, amelyben mindkét épület saját helyet kap."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A tér kültéri közterület, rendezvények és ideiglenes berendezések változtathatják a látványt. A környező templomok és múzeumok külön látogatási rend szerint működnek.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Old_Town_Square"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.087,
+      14.4214
+    ],
+    "img": "images/PRG_017.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prague_-_Old_Town_Square.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Prague_-_Old_Town_Square.jpg/960px-Prague_-_Old_Town_Square.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140818142406",
+    "imageAuthor": "Tiia Monto",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "English: Panoramic view of Old Town Square, Prague. This photograph was taken with an Olympus E-PL1",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg018",
+    "id": "PRG-018",
+    "num": 18,
+    "name": "18. Orloj és Óvárosháza (Pražský orloj a Staroměstská radnice)",
+    "title": "Orloj és Óvárosháza (Pražský orloj a Staroměstská radnice)",
+    "hungarianName": "Orloj és Óvárosháza",
+    "czechName": "Pražský orloj a Staroměstská radnice",
+    "lat": 50.087008,
+    "lon": 14.420917,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_018_orloj_es_ovaroshaza.html",
+    "short": "Az 1410-es csillagászati óra égboltot és naptárt mutató szerkezete, mozgó apostolokkal és városházi toronnyal.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Az Orloj előtt ne csak az apostolok megjelenését várjuk. A csillagászati óra jóval összetettebb annál, mint amit a néhány perces látványosság elsőre megmutat. Az Óvárosháza déli falán idő, égbolt és naptár kapcsolódik össze. A szerkezet a középkori város tudását és önbizalmát is láthatóvá tette.",
+      "Az óra legrégebbi része 1410-ből származik. Készítéséhez Mikuláš z Kadaně órásmester és Jan Šindel csillagász neve kapcsolódik. A későbbi korszakok újabb részletekkel és javításokkal alakították a szerkezetet. A ma látható együttes ezért több évszázad közös munkáját őrzi.",
+      "A felső csillagászati számlap a Nap és a Hold helyzetét, valamint különböző időszámításokat jelenít meg. A középkori világszemléletben a városi idő és az égi rend nem vált el élesen egymástól. Nézzük meg a számlap körüli gyűrűket, mielőtt megpróbálnánk mindent egyszerre leolvasni. Már az eltérő jelrendszerek felismerése is sokat hozzáad az élményhez.",
+      "Az alsó naptártárcsa Josef Mánes tizenkilencedik századi munkájához kapcsolódik. A hónapképek az évszakokat és a mindennapi munkát is felidézik. Az idő így nem pusztán számsorként, hanem az emberi élet ismétlődő rendjeként jelenik meg. A két nagy tárcsa egymást kiegészítve adja az óra különleges karakterét.",
+      "Az óránkénti játék során a Halál figurája és az apostolok mozgása vonzza magára a figyelmet. A figurák a mulandóság, az emberi hiúság és a vallásos remény képeit kapcsolják össze. A játék nem egész éjjel látható, a bemutatásnak napi időrendje van. Érdemes a várakozás közben a mozdulatlan szobrokat és faragványokat is megfigyelni.",
+      "A megvakított órásmesterről szóló ismert történet legenda, nem az óra dokumentált keletkezéstörténete. A valós múltban restaurálások és a második világháború végi súlyos károk is fontos szerepet játszottak. A városháza tornya és történelmi terei külön látogatási élményt adnak a külső órához képest. Ha innen továbbmegyünk, már érdemes úgy emlékezni az Orlojra, mint egy működő képes világmagyarázatra, nem csupán néhány mozgó figurára."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Az apostolok játéka napi időrendben működik, nem 24 órán át. Az aktuális időpontokat a hivatalos oldal közli. A városházi torony és a belső terek bejárása külön belépős program.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/old-town-hall-with-astronomical-clock-staromestska-radnice-s-orlojem/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Prague_astronomical_clock"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Prague_astronomical_clock",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.087,
+      14.4208
+    ],
+    "img": "images/PRG_018.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Astronomical_Clock_%288341899828%29.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Astronomical_Clock_%288341899828%29.jpg/500px-Astronomical_Clock_%288341899828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20130129045455",
+    "imageAuthor": "Steve Collis from Melbourne, Australia",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "imageDescription": "English: Astronomical Clock Deutsch: Rathausuhr am Altstädter Ring in Prag.",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg019",
+    "id": "PRG-019",
+    "num": 19,
+    "name": "19. Týn templom (Chrám Matky Boží před Týnem)",
+    "title": "Týn templom (Chrám Matky Boží před Týnem)",
+    "hungarianName": "Týn templom",
+    "czechName": "Chrám Matky Boží před Týnem",
+    "lat": 50.0876,
+    "lon": 14.4227,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_019_tyn_templom.html",
+    "short": "Gótikus ikertornyok az Óvárosi tér fölött, huszita történettel, barokk berendezéssel és Tycho Brahe sírjával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Týn templomot az Óvárosi térről legelőször a két tornyáról ismerjük fel. A magas, hegyes sisakok és a körülöttük emelkedő kisebb tornyocskák különösen erős sziluettet adnak. A templom alsó része részben a tér házai mögé húzódik. Ettől a hatalmas épület úgy jelenik meg, mintha a polgárváros sűrű szövetéből nőne ki.",
+      "A gótikus templom építése a tizennegyedik század közepén kezdődött. A következő évszázadok vallási és politikai változásai jelentősen alakították szerepét. A huszita korszakban a kelyhes mozgalom egyik fontos központja volt. A tér felől szemlélt tornyok így nemcsak építészeti jelképek, hanem vallási viták és hatalmi fordulatok tanúi is.",
+      "A név a közeli Týn, vagyis az egykori kereskedőudvar környezetére utal. A templom története ezért a nemzetközi kereskedelmi várossal is összekapcsolódik. A környéken áruk, idegen nyelvek és városi kapcsolatok találkoztak. Érdemes a szent épület mögé odaképzelni ezt a nagyon is gyakorlatias, mozgalmas közeget.",
+      "Ha beléphetünk, a gótikus szerkezet és a későbbi barokk berendezés együttese fogad. A magas belső térben az oltárok és festmények új hangsúlyokat alakítanak ki. Figyeljük meg, milyen más képet ad az épület belülről, mint a sötét toronysisakok alapján várnánk. A hosszú használat itt különböző korok tárgyait és formáit kapcsolta össze.",
+      "A templomban nyugszik Tycho Brahe dán csillagász, aki II. Rudolf udvarában dolgozott. Sírja a vár tudományos világát köti össze az óvárosi templommal. Brahe megfigyelései a modern csillagászat kibontakozásában is jelentős szerepet játszottak. A síremlék előtt így a vallási környezetben a tudomány történetének egyik fontos alakjával is találkozunk.",
+      "Kifelé érdemes ismét a tornyokra nézni, és összehasonlítani őket egymással. A látszólag szimmetrikus képben apró eltéréseket is észrevehetünk. A templom bejáratát a házak közötti átvezetés miatt nem mindig azonnal találja meg a látogató. Ha megvan a helyes út, a tér zajából való belépés különösen erős váltást adhat a sétának."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Működő templom. A bejárat a tér házsora mögötti átvezetésen közelíthető meg, a belső tér nem egész nap látogatható. A turistalátogatás és az idegenvezetés helyi szabályokhoz kötött.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/church-of-our-lady-before-tyn-chram-matky-bozi-pred-tynem/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_before_T%C3%BDn"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_before_T%C3%BDn",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0875,
+      14.4228
+    ],
+    "img": "images/PRG_019.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tyn_Church%2C_Old_Town_Square%2C_Prague_-_8189.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Tyn_Church%2C_Old_Town_Square%2C_Prague_-_8189.jpg/500px-Tyn_Church%2C_Old_Town_Square%2C_Prague_-_8189.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20130924091256",
+    "imageAuthor": "Jorge Royan",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageDescription": "English: Tyn Church, Old Town Square, Prague, Czech Republic",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg020",
+    "id": "PRG-020",
+    "num": 20,
+    "name": "20. Lőportorony (Prašná brána)",
+    "title": "Lőportorony (Prašná brána)",
+    "hungarianName": "Lőportorony",
+    "czechName": "Prašná brána",
+    "lat": 50.087262,
+    "lon": 14.427792,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_020_loportorony.html",
+    "short": "Késő gótikus városkapu a koronázási út elején, Jagelló kori építéstörténettel és kilátóval.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Lőportoronynál Prága egyik történelmi bejáratához érkezünk. A magas, sötét kőből formált kaputorony az Óváros keleti szélén emelkedik. A forgalmas mai környezetben nehéz elképzelni, hogy itt egykor a városba való megérkezés ünnepélyes pillanata is lezajlott. A kapu egy határ átlépését és egy új városi világ kezdetét jelezte.",
+      "Az építkezés 1475-ben indult, II. Ulászló Jagelló király idején. A munkához Matěj Rejsek neve is szorosan kapcsolódik. A torony a késő gótikus reprezentáció gazdag formavilágát mutatja. A szobrok, címerek és erős függőleges tagolások az uralkodói és városi tekintélyt egyszerre hangsúlyozták.",
+      "Innen indult a cseh királyok koronázási útvonalának óvárosi szakasza. A menet a városon és a Károly hídon át haladt a vár felé. Ha ezt az irányt fejben összekötjük, a különálló látványosságok egyetlen történeti útvonal részeivé válnak. A kapu ezért jó hely arra, hogy a város nagyobb szerkezetét is áttekintsük.",
+      "A Lőportorony nevet későbbi használata magyarázza. Az épületet egy időben puskapor tárolására vették igénybe. A díszes városi kapu gyakorlati raktárszerepet kapott, majd újra műemlékként fedezték fel. Mai megjelenésén a tizenkilencedik századi helyreállítások is erős nyomot hagytak.",
+      "A szomszédos Városi Házzal a torony összeköttetésben áll. Ez az Obecní dům, nem az Orlojnál álló Óvárosháza. A két épület együtt különösen látványosan mutatja a gótikus és a szecessziós városképet. Nézzük meg, milyen más anyaghasználattal és díszítéssel szólítják meg a nézőt.",
+      "A torony kilátószintjéről az Óváros háztetői új irányból tárulhatnak fel. A feljutás lépcsőzéssel jár, ezért külön időt és figyelmet kíván. Kívülről is érdemes egy nagyobb kört tenni körülötte, amennyire a közlekedési környezet engedi. A kapu akkor válik igazán érthetővé, ha nemcsak magas toronyként, hanem egy régi városi útvonal fontos küszöbeként látjuk."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A torony és a Városi Ház két külön látogatóhely. A kilátószintre lépcsők vezetnek, az aktuális hozzáférést a torony üzemeltetője közli.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/powder-gate-tower-prasna-brana/"
+      },
+      {
+        "title": "Háttér és helytörténet · cs.wikipedia.org",
+        "url": "https://cs.wikipedia.org/wiki/Pra%C5%A1n%C3%A1_br%C3%A1na"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/powder-gate-tower-prasna-brana/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0873,
+      14.4278
+    ],
+    "img": "images/PRG_020.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prague_-_Powder_Tower.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Prague_-_Powder_Tower.jpg/500px-Prague_-_Powder_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140816174406",
+    "imageAuthor": "Tiia Monto",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "English: Powder Tower in Prague. This photograph was taken with an Olympus E-PL1",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg021",
+    "id": "PRG-021",
+    "num": 21,
+    "name": "21. Városi Ház (Obecní dům)",
+    "title": "Városi Ház (Obecní dům)",
+    "hungarianName": "Városi Ház",
+    "czechName": "Obecní dům",
+    "lat": 50.0875,
+    "lon": 14.428056,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_021_varosi_haz.html",
+    "short": "Szecessziós összművészeti központ Smetana teremmel, Mucha alkotásaival és az 1918-as államalapítás emlékeivel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Városi Ház előtt a Lőportorony középkorias sötét kövei után világosabb, színesebb és mozgalmasabb homlokzat fogad. Az Obecní dům a huszadik század elejének egyik legfontosabb prágai középülete. A szecesszió itt nemcsak díszítés, hanem összművészeti program. Építészek, festők, szobrászok és iparművészek munkája alakította az együttes egészét.",
+      "Az épület 1912-ben nyílt meg, Antonín Balšánek és Osvald Polívka tervei szerint. Helyén korábban királyi udvarhoz kapcsolódó épületek álltak. A régi uralkodói helyszín így a modern cseh polgári kultúra központjává alakult. A város és a nemzeti önkép változásai ebben a térbeli cserében is jól érzékelhetők.",
+      "A homlokzat központi mozaikját érdemes kissé távolabbról szemlélni. A képi felület, az íves lezárás és a szobrok együtt mozgalmas kompozíciót adnak. A részletek mögött a cseh művészeti önállóság megjelenítésének igénye is állt. Az épület egyszerre akart korszerű, ünnepi és sajátosan helyi lenni.",
+      "Odabent a Smetana terem a zenei élet egyik jelentős színtere. A nagy terem ünnepélyességét a díszítés mellett a gondosan kialakított közösségi funkció adja. Az épület más termeiben Alfons Mucha és további cseh művészek alkotásai is megjelennek. A vezetett bejárás ezért egészen más részleteket tárhat fel, mint egy rövid belépés az előcsarnokba.",
+      "A Városi Házhoz az 1918-as csehszlovák államalapítás emléke is kapcsolódik. A kulturális központ ekkor politikai jelentőséget is kapott. A koncertterem, a fogadószobák és a kávéházi világ így ugyanannak a modern városi nyilvánosságnak eltérő oldalait mutatják. Egy középületben a művészet, a társasági élet és az állami emlékezet találkozott.",
+      "Ha megállunk egy kávéra, nézzük meg a berendezés apró részleteit is. A lámpák, fémmunkák és falburkolatok sokat elárulnak az épület eredeti igényességéről. Itt a használati tárgyak is részei a teljes művészi környezetnek. A szomszédos gótikus toronyra visszanézve különösen szép példáját látjuk annak, hogyan tud két nagyon eltérő korszak egyetlen emlékezetes városi képpé összeállni."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A közönségforgalmi terek, a vezetett bejárás és az egyes koncertek eltérő jeggyel és időrendben működhetnek. Ez a Városi Ház, nem az Óvárosháza.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/municipal-house-obecni-dum/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Municipal_House"
+      },
+      {
+        "title": "Háttér és helytörténet · www.obecnidum.cz",
+        "url": "https://www.obecnidum.cz/en/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Municipal_House",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0878,
+      14.4278
+    ],
+    "img": "images/PRG_021.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jugendstil_Prag_Gemeindehaus_1.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Jugendstil_Prag_Gemeindehaus_1.jpg/960px-Jugendstil_Prag_Gemeindehaus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20160407201327",
+    "imageAuthor": "Thomas Ledl",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Deutsch: Jugendstil Prag Gemeindehaus",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg022",
+    "id": "PRG-022",
+    "num": 22,
+    "name": "22. Vencel tér (Václavské náměstí)",
+    "title": "Vencel tér (Václavské náměstí)",
+    "hungarianName": "Vencel tér",
+    "czechName": "Václavské náměstí",
+    "lat": 50.08139,
+    "lon": 14.4275,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_022_vencel_ter.html",
+    "short": "Középkori lópiacból modern sugárúttá lett tér, Szent Vencel szobrával és a huszadik század nagy fordulataival.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Vencel teret elsőre inkább széles sugárútnak érezhetjük, mint hagyományos városi térnek. Hosszan emelkedik a Nemzeti Múzeum épülete felé. Az üzletek, szállodák és közlekedési kapcsolatok a mai Prága forgalmas központjává teszik. Ugyanez a nyitott, nagy befogadóképességű tér a modern cseh történelem számos fordulatának is helyszíne lett.",
+      "A terület IV. Károly 1348-ban alapított Újvárosához tartozott. Eredeti szerepe lópiac volt. A középkori várostervezés itt jóval tágasabb tereket hozott létre, mint az Óváros korábbi utcahálózata. A mai sugárútszerű megjelenés mögött ezért egy régi, nagyon tudatos városszerkezeti döntés áll.",
+      "A felső részen Szent Vencel lovasszobra uralja a látványt. A cseh védőszent alakja a tér modern eseményeihez is maradandó hátteret adott. Nézzük meg, hogyan kapcsolódik a szobor a mögötte emelkedő múzeumhoz. A két alkotás együtt ünnepélyes történelmi tengelyt alakít ki a kereskedelmi utca fölött.",
+      "1968 és 1969 emlékezete különösen erősen jelen van ezen a helyen. A szovjet vezetésű katonai bevonulás, majd Jan Palach tiltakozó önfeláldozása a tér történetének tragikus fejezetei. Az emlékező helyek előtt a forgalmas városi környezet is más jelentést kap. A jelenlegi nyüzsgés mögött sokak személyes emléke és vesztesége áll.",
+      "1989-ben a bársonyos forradalom tömegei szintén itt gyűltek össze. A tér egyszerre lett találkozási hely, közös megszólalás és politikai változás színtere. A korábbi városi funkciók nem tűntek el, hanem új jelentéssel egészültek ki. Egy áruház vagy szálloda homlokzata is történelmi háttérré válhatott a tömegek mögött.",
+      "Séta közben a felső szinteket is figyeljük, ne csak a kirakatokat. Szecessziós, modern és későbbi épületek váltják egymást, az átjárók pedig belső udvarokhoz és további utcákhoz vezethetnek. A tér nagy történetei mellett a modern kereskedőváros építészete is gazdag anyagot kínál. A múzeum felé emelkedve jól érzékelhető, hogyan kapcsolódik össze itt a közélet, az emlékezés és a hétköznapi városi mozgás."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A koordináta a hosszú tér középső részét jelöli. A Szent Vencel szobor és a Nemzeti Múzeum a felső végén található. Városi munkák és rendezvények módosíthatják a gyalogos nyomvonalat.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/wenceslas-square-vaclavske-namesti/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Wenceslas_Square"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Wenceslas_Square",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0815,
+      14.4276
+    ],
+    "img": "images/PRG_022.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad_Vaclavplassen_i_nybyen_Nove_Mesto_flott.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Prague_Praha_2014_Holmstad_Vaclavplassen_i_nybyen_Nove_Mesto_flott.jpg/960px-Prague_Praha_2014_Holmstad_Vaclavplassen_i_nybyen_Nove_Mesto_flott.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20140516180445",
+    "imageAuthor": "Øyvind Holmstad",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageDescription": "Norsk bokmål: Vaclavplassen i nybyen Nove Mesto. English: Vaclav square plaza Nove Mesto.",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg023",
+    "id": "PRG-023",
+    "num": 23,
+    "name": "23. Nemzeti Múzeum (Národní muzeum)",
+    "title": "Nemzeti Múzeum (Národní muzeum)",
+    "hungarianName": "Nemzeti Múzeum",
+    "czechName": "Národní muzeum",
+    "lat": 50.078831,
+    "lon": 14.430797,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_023_nemzeti_muzeum.html",
+    "short": "Neoreneszánsz múzeumpalota a Vencel tér felső végén, díszlépcsőházzal, Pantheonnal és külön látogatható kupolával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Nemzeti Múzeum történeti épületét a Vencel tér felső végén keressük. A magasabb pontra állított palota tudatosan zárja le a tér hosszú látványtengelyét. A kupola és a széles homlokzat a tudomány és a nemzeti kultúra rangját hirdeti. Már a megközelítés során érezhető, hogy az épületet a város egyik kiemelt jelképének szánták.",
+      "A múzeum intézménye 1818-ban jött létre. A neoreneszánsz palota később, a tizenkilencedik század végén készült el Josef Schulz tervei szerint. A gyűjtés és a tudományos munka ekkor szorosan összekapcsolódott a cseh kulturális önazonosság erősödésével. Az épület ezért nemcsak tárlók befogadására szolgált, hanem jelentést is adott a bennük őrzött tudásnak.",
+      "Belépve a díszlépcsőházat érdemes lassan megfigyelni. A lépcsők, oszlopok, festett felületek és kőburkolatok együtt ünnepi megérkezést szerveznek. A múzeumi látogatás így már jóval az első kiállítási tárgy előtt elkezdődik. A tér azt az érzést erősíti, hogy az ide belépő a közösen megőrzött kulturális örökséggel találkozik.",
+      "A Pantheon a jelentős történelmi és kulturális személyiségek emlékezetének külön tere. Szobrok és képek mutatják meg, kiket tartott fontosnak a közösségi emlékezés egy-egy korszaka. Ezt a válogatást történeti nézőpontként is érdemes szemlélni. A múzeum maga is alakítja a múlt képét, miközben őrzi annak tárgyait.",
+      "A nagy felújítás után az épület 2018-ban nyílt meg újra. A történeti és az új múzeumépületet később föld alatti kapcsolat is összekötötte. A látogatás ezért nem feltétlenül korlátozódik a tér fölé emelkedő régi palotára. Az aktuális kiállítások és a közlekedőterek egy tágabb múzeumi együttest alkotnak.",
+      "A kupola különösen szép kilátást kínálhat, de látogathatóságát nem szabad automatikusan minden jegyhez feltételezni. A felső részek megközelítése a helyi rendhez és az egyéni mozgási lehetőségekhez igazodik. Kifelé újra nézzünk le a Vencel térre. A korábban végigsétált sugárút innen már az épület tudatos városképi kompozíciójának részeként jelenik meg."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A pont a történeti múzeumépületet jelöli. A történeti és az új épület összeköttetésben áll, de a kupola hozzáférését ne feltételezd minden belépő részeként. A kupola nem teljesen akadálymentes.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · publikace.nm.cz",
+        "url": "https://publikace.nm.cz/en/visit-us/buildings/museum-complex-of-the-national-museum"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/National_Museum_%28Prague%29"
+      },
+      {
+        "title": "Háttér és helytörténet · www.nm.cz",
+        "url": "https://www.nm.cz/en/rents/rent-our-building/historical-building-of-the-national-museum"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/National_Museum_%28Prague%29",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0784,
+      14.43
+    ],
+    "img": "images/PRG_023.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:The_National_Museum_of_Prague.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_National_Museum_of_Prague.jpg/960px-The_National_Museum_of_Prague.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20261017111517",
+    "imageAuthor": "Stavros Argyropoulos",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "imageDescription": "English: The National Museum of Prague",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül.",
+    "imageNote": "A Nemzeti Múzeum történeti épületének díszlépcsőháza."
+  },
+  {
+    "key": "prg024",
+    "id": "PRG-024",
+    "num": 24,
+    "name": "24. Zsidó negyed (Josefov)",
+    "title": "Zsidó negyed (Josefov)",
+    "hungarianName": "Zsidó negyed",
+    "czechName": "Josefov",
+    "lat": 50.08972,
+    "lon": 14.41861,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_024_zsido_negyed.html",
+    "short": "Történelmi zsinagógák, a Régi Zsidó Temető és a holokauszt emlékezete egy átalakult városi negyedben.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Josefov utcáin járva fontos tudnunk, hogy a mai negyed nem a régi gettó változatlanul fennmaradt képe. A tizenkilencedik század végi és a huszadik század eleji városrendezés sok korábbi házat és utcát eltüntetett. A szélesebb utak és reprezentatív bérházak között néhány kiemelkedő régi emlék maradt meg. A hely történetét ezért a fennmaradt épületekből és a tudatosan felidézett hiányokból együtt érthetjük meg.",
+      "A prágai zsidó közösség évszázadokon át sajátos jogi és társadalmi keretek között élt. A kereskedelem, a vallási tanulás és a közösségi intézmények sűrű világot hoztak létre. A negyed neve II. József korának változásaira is emlékeztet. A történet azonban nem egyetlen uralkodói intézkedésből, hanem hosszú alkalmazkodásokból és megpróbáltatásokból áll.",
+      "A Zsidó Múzeum nem egyetlen épületet jelent. Történelmi zsinagógák, kiállítások és a Régi Zsidó Temető alkotják a látogatható együttest. A különböző helyszíneken vallási tárgyakkal, közösségi történettel és személyes emlékekkel találkozhatunk. Érdemes több időt hagyni rá, mint egy egyszerű utcai körsétára.",
+      "A temető sűrűn álló sírkövei különösen erős látványt adnak. A korlátozott terület miatt az idők során több rétegben temetkeztek, miközben a régebbi köveket is megőrizték. A szabálytalannak tűnő elrendezés mögött így hosszú használat és gondos továbbőrzés története áll. Egy-egy név, jel és faragvány önálló életpályához vezethetne közelebb.",
+      "A Pinkas zsinagóga a holokauszt áldozatainak emlékhelye is. A falakra írt nevek és a gyermekrajzok a történelmet személyes sorsokká teszik. A negyed kulturális gazdagsága és a közösség huszadik századi pusztulása itt nem választható el egymástól. A séta ezen a ponton különösen csendes figyelmet kíván.",
+      "A Régi Új zsinagógát a következő állomáson külön nézzük meg. Josefov egészében pedig figyeljük a régi emlékek és az újabb városi környezet kapcsolatát. A hely egyszerre vallási örökség, élő közösségi tér és múzeumi bemutatás. Ha ezt a három nézőpontot együtt tartjuk, a negyed sokkal többet mond el, mint a Gólem története vagy a sírkövek legismertebb fényképe."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A pont Josefov központjának tájékozódási helye. A múzeum több különálló helyszínből áll. Szombaton és zsidó ünnepeken a látogatási rend korlátozott, az aktuálisan nyitott épületeket az intézmény közli.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.jewishmuseum.cz",
+        "url": "https://www.jewishmuseum.cz/en/info/visit/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Josefov"
+      },
+      {
+        "title": "Háttér és helytörténet · www.jewishmuseum.cz",
+        "url": "https://www.jewishmuseum.cz/en/explore/sites/old-jewish-cemetery/"
+      },
+      {
+        "title": "Háttér és helytörténet · www.jewishmuseum.cz",
+        "url": "https://www.jewishmuseum.cz/en/info/visit/opening-hours/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Josefov",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0894,
+      14.4184
+    ],
+    "img": "images/PRG_024.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Jewish_tawnhall_%28Prague%29.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Jewish_tawnhall_%28Prague%29.jpg/500px-Jewish_tawnhall_%28Prague%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20070607124559",
+    "imageAuthor": "Martin Pauer (Power)",
+    "imageLicense": "CC BY-SA 2.5",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "imageDescription": "Townhall of the Jewish city in Prague",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg025",
+    "id": "PRG-025",
+    "num": 25,
+    "name": "25. Régi Új zsinagóga (Staronová synagoga)",
+    "title": "Régi Új zsinagóga (Staronová synagoga)",
+    "hungarianName": "Régi Új zsinagóga",
+    "czechName": "Staronová synagoga",
+    "lat": 50.09,
+    "lon": 14.41861,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_025_regi_uj_zsinagoga.html",
+    "short": "Középkori gótikus imaház, élő vallási hagyománnyal és Löw rabbi Gólem legendájával.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Régi Új zsinagóga előtt a viszonylag alacsony, erős tetővel fedett épületet figyeljük meg. A közeli nagy bérházak között könnyű kisebbnek érezni, mint amekkora történeti jelentősége indokolná. A tizenharmadik század második felében épült gótikus zsinagóga Európa legrégebbi, ma is használt zsidó imaházai közé tartozik. A prágai közösség számára évszázadokon át kiemelt szerepet töltött be.",
+      "A különös név több korszak egymásra következését őrzi. Eredetileg új zsinagógának nevezték, később azonban újabb imaházak is épültek a városban. Ettől a korábbi új épület Régi Újjá vált. A névhez kapcsolódó másik, vallási magyarázat már a hely gazdag legendakörének része.",
+      "A belső térben a kéthajós elrendezés és a középen álló pillérek különösen fontosak. A boltozat és a felolvasóhely környezete eltér a keresztény templomokban megszokott térszervezéstől. Érdemes megfigyelni, hogyan helyezkednek el egymáshoz képest a közösség, a tóraolvasás és a szent irány pontjai. Az épületet így a vallási gyakorlat felől is közelebb érthetjük magunkhoz.",
+      "A Gólem története Löw rabbi emlékéhez kapcsolódik. A legenda szerint az agyagból alkotott lény a közösség védelmére kelt életre. A zsinagóga padlását a történet gyakran a Gólem maradványainak rejtekhelyeként említi. Ez irodalmi és néphagyomány, nem feltárt régészeti tény vagy látogatható kiállítás.",
+      "A zsinagóga ma is vallási helyszín. A látogatás során az öltözetre, a fejfedésre és a fényképezésre vonatkozó helyi szabályokhoz kell igazodnunk. A szombati és ünnepi rend a turistalátogatást is befolyásolja. A több évszázados használatot pedig nem érdemes megszakítás nélküli idillként elképzelni, mert a második világháború a közösség életében itt is súlyos törést okozott.",
+      "Kifelé lépve nézzünk vissza a meredek tetőre és az oromzat formájára. A csendes belső tér után a modern város közelsége újra erősen érezhető. A Régi Új zsinagóga jelentőségét éppen ez a hosszú jelenlét adja. Nemcsak megőrzött középkori épület, hanem egy ma is jelentést hordozó közösségi hagyomány helye."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "Működő vallási helyszín, szombaton és zsidó ünnepeken nincs általános turistalátogatás. A közösség 2026. november 12-én ellenőrzött tájékoztatása szerint a helyszín a Zsidóváros látogatási körének része. A padlás nem látogatható Gólem kiállítás.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · www.synagogue.cz",
+        "url": "https://www.synagogue.cz/en/old-new-synagogue"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Old_New_Synagogue"
+      },
+      {
+        "title": "Háttér és helytörténet · www.jewishmuseum.cz",
+        "url": "https://www.jewishmuseum.cz/en/explore/sites/old-new-synagogue/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Old_New_Synagogue",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0896,
+      14.4178
+    ],
+    "img": "images/PRG_025.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Prague_Praha_2014_Holmstad_Den_gammelnye_synagogen.JPG",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Prague_Praha_2014_Holmstad_Den_gammelnye_synagogen.JPG/960px-Prague_Praha_2014_Holmstad_Den_gammelnye_synagogen.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20160824181822",
+    "imageAuthor": "Øyvind Holmstad",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageDescription": "English: Prague Praha 2014 Holmstad The old-new synagogueNorsk bokmål: Den gammelnye synagogen",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg026",
+    "id": "PRG-026",
+    "num": 26,
+    "name": "26. Táncoló Ház (Tančící dům)",
+    "title": "Táncoló Ház (Tančící dům)",
+    "hungarianName": "Táncoló Ház",
+    "czechName": "Tančící dům",
+    "lat": 50.075473,
+    "lon": 14.414143,
+    "rank": 4,
+    "mustSee": false,
+    "href": "PRG_026_tancolo_haz.html",
+    "short": "Milunić és Gehry 1996-os folyóparti épülete, Fred és Ginger táncát idéző formákkal és modern várostörténettel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "A Táncoló Házhoz érkezve most a megszokott prágai történelmi formák helyett szándékosan szokatlan épületet látunk. A folyóparti sarok két fő tömege mintha egymás felé fordulna. Az egyik üvegesebb, karcsúbb és mozgalmasabb, a másik tömörebb, szilárdabb karakterű. A ház nevét ez a táncoló párként is értelmezhető kapcsolat adja.",
+      "Az épületet Vlado Milunić és Frank Gehry tervezték, és 1996-ban készült el. A modern Prága egyik legkönnyebben felismerhető alkotásává vált. A kezdeti viták jól mutatják, milyen erős elvárások veszik körül a történelmi városképet. Egy új épület itt mindig a már meglévő homlokzatokkal és a városról alkotott képpel is párbeszédbe kerül.",
+      "A két alakot gyakran Fred Astaire és Ginger Rogers nevével azonosítják. A hasonlat segít a forma játékosságának felismerésében. Érdemes azonban a becenevek után az építészeti részletekre is figyelni. A dőlő felületek, az ablakok ritmusa és a tetőn megjelenő elemek saját rendet alkotnak.",
+      "Nézzük meg a házat előbb a közeli járdáról, majd egy biztonságos, távolabbi nézőpontból is. Közelről a felületek és az ablakok furcsa arányai kerülnek előtérbe. Távolabbról a teljes tömeg és a szomszédos házakhoz való viszony válik érthetővé. A folyópart tágasabb tere lehetővé teszi, hogy az épületet ne csak egyetlen saroknézetből ismerjük meg.",
+      "A helyén álló korábbi ház a második világháborús bombázásban pusztult el. Az új beépítés ezért egy régen megmaradt városi hiányt is betöltött. A történetben a háborús veszteség és a rendszerváltás utáni építészeti kísérletezés találkozik. Ettől a látványos forma a város huszadik századi változásainak is emléke lesz.",
+      "Az épület használata többféle funkciót foglal magába, a látogatók számára elérhető terek külön rend szerint működnek. A tetőterasz vagy a kiállítási program nem feltétlenül azonos feltételekkel látogatható. Külső megtekintésre azonban a ház önmagában is teljes értékű állomás. A folyóparton továbbindulva érdemes felidézni, hogy Prága karakterét nemcsak a régi formák megőrzése, hanem időnként egy merész új gesztus is alakítja."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A külső megtekintés, a galéria, a vendéglátóhelyek és a tetőterasz hozzáférése különbözhet. A pont az épületet jelöli, nem biztosított parkolót.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/dancing-house-tancici-dum/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Dancing_House"
+      },
+      {
+        "title": "Háttér és helytörténet · www.dancinghouse.cz",
+        "url": "https://www.dancinghouse.cz/en/history"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://prague.eu/en/objevujte/dancing-house-tancici-dum/",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0754,
+      14.4141
+    ],
+    "img": "images/PRG_026.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Tanzendes_Haus_2023.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Tanzendes_Haus_2023.jpg/960px-Tanzendes_Haus_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20230417130657",
+    "imageAuthor": "Danny Alexander Lettkemann, Architekt",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageDescription": "Deutsch: Das Tanzende Haus, auch bekannt als Ginger und Fred, in Prag. Entworfen vom Architekturbüro Frank Gehry und Vlado Milunić.",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  },
+  {
+    "key": "prg027",
+    "id": "PRG-027",
+    "num": 27,
+    "name": "27. Vyšehrad vára és bazilikája (Vyšehrad)",
+    "title": "Vyšehrad vára és bazilikája (Vyšehrad)",
+    "hungarianName": "Vyšehrad vára és bazilikája",
+    "czechName": "Vyšehrad",
+    "lat": 50.06417,
+    "lon": 14.41944,
+    "rank": 5,
+    "mustSee": true,
+    "href": "PRG_027_vysehrad_vara_es_bazilikaja.html",
+    "short": "Sziklavár és park a Moldva fölött, cseh mondákkal, Szent Péter és Pál bazilikájával, valamint a Slavín temetővel.",
+    "category": "poi_object",
+    "paragraphs": [
+      "Vyšehrad magaslatán a belvárosi forgatag után tágasabb, nyugodtabb környezet fogad. A Moldva fölé emelkedő szikla, a sétányok és a templomtornyok együtt önálló kirándulási helyszínt adnak. Először a folyó felé keressünk egy biztonságos kilátópontot. Innen jól érezhető, miért lett ez a magaslat a város történetének és képzeletvilágának fontos része.",
+      "A cseh mondák Libuše fejedelemasszonyhoz és a nemzet korai történetéhez kapcsolják a helyet. A város jövőjéről szóló jóslatok különösen erős kulturális jelentést adtak a sziklának. A biztos történeti adatok szerint azonban Vyšehrad később alakult ki, mint a prágai vár. A legendás kezdet és a régészeti múlt itt két külön, egymást gazdagító nézőpont.",
+      "A tizenegyedik században fejedelmi központként is jelentős szerepet kapott. Később a vár és a vallási intézmények története újra meg újra átalakult. A ma látható erődítések nagy része már a későbbi, barokk katonai építészet világához tartozik. A falakon sétálva ezért több korszak védelmi és reprezentációs elképzelései fölött járunk.",
+      "A Szent Péter és Pál bazilika ikertornyai messziről jelzik a hely központját. Mai neogótikus megjelenése jóval későbbi, mint az itt álló első templom. Belül a gazdag festés és a díszítés ismét más történeti hangulatot ad. A külső erődítések után a templom a vallási és művészeti élet folytonosságát mutatja.",
+      "A szomszédos temetőben a cseh kultúra számos kiemelkedő alakja nyugszik. Smetana és Dvořák sírja különösen sok zenekedvelőt vonz ide. A Slavín közös emlékhely a nemzeti emlékezés tudatosan kialakított tere. A sírok között érdemes lassan haladni, mert az egyes emlékművek művészeti részletei önmagukban is figyelmet érdemelnek.",
+      "Vyšehrad élményéhez a parkok és a folyó fölötti kilátások ugyanolyan szorosan hozzátartoznak, mint a bazilika és a temető. Egyetlen gyors fénykép helyett érdemes itt hosszabb sétát tenni. A város panorámája innen délebbi nézőpontból áll össze, mint a várból vagy Petřínről. A prágai út végén ez a hely szép lehetőséget ad arra, hogy a legendákat, az épületeket és a korábban megismert városrészeket egyetlen nagyobb történetben kapcsoljuk össze."
+    ],
+    "sentenceCount": 24,
+    "visitNote": "A pont a Vyšehrad együttesén belüli tájékozódási hely. A parkok, a bazilika, a temető és a kazamaták eltérő rend szerint látogathatók. A belvárosi pontokhoz képest délebbre esik, önálló hosszabb sétának is alkalmas.",
+    "sources": [
+      {
+        "title": "Hivatalos helyszíni vagy városi ismertető · prague.eu",
+        "url": "https://prague.eu/en/objevujte/vysehrad/"
+      },
+      {
+        "title": "Háttér és helytörténet · en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad"
+      },
+      {
+        "title": "Háttér és helytörténet · praha-vysehrad.cz",
+        "url": "https://praha-vysehrad.cz/en/buildings-and-places/"
+      },
+      {
+        "title": "Háttér és helytörténet · prague.eu",
+        "url": "https://prague.eu/en/objevujte/vysehrad-cemetery-and-slavin-vysehradsky-hrbitov-a-slavin/"
+      }
+    ],
+    "contentCheckedAt": "2026-11-12",
+    "coordinateSource": "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad",
+    "coordinateType": "látnivaló vagy helyszíni tájékozódási pont",
+    "originalCoordinates": [
+      50.0646,
+      14.4208
+    ],
+    "img": "images/PRG_027.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Parn%C3%ADk_Vy%C5%A1ehrad_pod_Vy%C5%A1ehradem.jpg",
+    "imageDownload": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Parn%C3%ADk_Vy%C5%A1ehrad_pod_Vy%C5%A1ehradem.jpg/960px-Parn%C3%ADk_Vy%C5%A1ehrad_pod_Vy%C5%A1ehradem.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20080916181342",
+    "imageAuthor": "Stanislav Jelen",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageDescription": "English: Paddle steamer Vyšehrad under Vyšehrad rock Čeština: Parník Vyšehrad, plující pod Vyšehradskou skálou",
+    "imageModification": "Commons előnézetből, legfeljebb 1400 pixelre kicsinyítve és JPEG formátumba újratömörítve. Kivágás és retusálás nélkül."
+  }
+];
+(function () {
+  "use strict";
+  if (typeof document === "undefined") return;
+
+  function element(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
+  }
+
+  function hydrate() {
+    // A lista kártyáin is a javított nevek és rövid leírások jelennek meg.
+    for (const poi of POIS) {
+      const card = document.getElementById(poi.key);
+      if (!card) continue;
+      const title = card.querySelector(".poi-title");
+      const summary = card.querySelector(".p");
+      const photo = card.querySelector("img.inline-image");
+      const coords = card.querySelector(".coords");
+      const nav = card.querySelector('a[href*="google.com/maps/dir/"]');
+      if (title) title.textContent = poi.name;
+      if (summary) summary.textContent = poi.short;
+      if (photo) photo.alt = poi.title;
+      if (coords) coords.textContent = poi.lat.toFixed(6) + ", " + poi.lon.toFixed(6) + " · ID: " + poi.id;
+      if (nav) nav.href = "https://www.google.com/maps/dir/?api=1&destination=" +
+        encodeURIComponent(poi.lat + "," + poi.lon) + "&travelmode=walking";
+    }
+
+    const key = typeof window !== "undefined" ? window.CURRENT_POI_KEY : null;
+    const poi = POIS.find(item => item.key === key);
+    const content = document.getElementById("contentText");
+    if (!poi || !content) return;
+
+    content.textContent = "";
+    content.appendChild(element("h1", "h1", poi.title));
+    for (const paragraph of poi.paragraphs) {
+      content.appendChild(element("p", "p", paragraph));
+    }
+    document.title = poi.title + " · Prága";
+    const hero = document.querySelector("img.detail-hero");
+    if (hero) hero.alt = poi.title;
+    const coords = document.querySelector(".coords");
+    if (coords) coords.textContent = poi.lat.toFixed(6) + ", " + poi.lon.toFixed(6);
+
+    // A gyakorlati tudnivalók és forráslinkek külön maradnak a narrációtól.
+    const previous = document.getElementById("poiSourceInfo");
+    if (previous) previous.remove();
+    const info = element("aside", "poi-source-info");
+    info.id = "poiSourceInfo";
+    info.setAttribute("aria-label", "Látogatási tudnivalók és források");
+    if (poi.visitNote) info.appendChild(element("p", "p visit-note", poi.visitNote));
+    const details = element("details", "small");
+    details.appendChild(element("summary", "", "Források · ellenőrizve: " + poi.contentCheckedAt));
+    const list = element("ul", "");
+    for (const source of poi.sources) {
+      const item = element("li", "");
+      const link = element("a", "", source.title);
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      item.appendChild(link);
+      list.appendChild(item);
+    }
+    const coordinateItem = element("li", "");
+    const coordinateLink = element("a", "", "Helyadat forrása");
+    coordinateLink.href = poi.coordinateSource;
+    coordinateLink.target = "_blank";
+    coordinateLink.rel = "noopener noreferrer";
+    coordinateItem.appendChild(coordinateLink);
+    list.appendChild(coordinateItem);
+    details.appendChild(list);
+    info.appendChild(details);
+    content.insertAdjacentElement("afterend", info);
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", hydrate, { once: true });
+  } else {
+    // Késleltetett futáskor is megvárjuk az oldalon utána álló POI-azonosítót.
+    setTimeout(hydrate, 0);
+  }
+})();

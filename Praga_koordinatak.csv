@@ -1,0 +1,28 @@
+﻿ID;Magyar név;Cseh név;Szélesség;Hosszúság;Google Maps;Helyadat forrása
+PRG-001;Prágai vár;Pražský hrad;50.090000;14.400000;https://www.google.com/maps/search/?api=1&query=50.09,14.4;https://en.wikipedia.org/wiki/Prague_Castle
+PRG-002;Szent Vitus székesegyház;Katedrála svatého Víta;50.090830;14.400560;https://www.google.com/maps/search/?api=1&query=50.09083,14.40056;https://en.wikipedia.org/wiki/St._Vitus_Cathedral
+PRG-003;Arany utcácska;Zlatá ulička;50.092200;14.403900;https://www.google.com/maps/search/?api=1&query=50.0922,14.4039;https://en.wikipedia.org/wiki/Golden_Lane
+PRG-004;Daliborka torony;Daliborka;50.092361;14.405000;https://www.google.com/maps/search/?api=1&query=50.092361,14.405;https://cs.wikipedia.org/wiki/Daliborka
+PRG-005;Lobkowicz palota;Lobkowiczký palác;50.091609;14.404852;https://www.google.com/maps/search/?api=1&query=50.091609,14.404852;https://cs.wikipedia.org/wiki/Lobkovický_palác_(Pražský_hrad)
+PRG-006;Régi Királyi Palota és Ulászló terem;Starý královský palác;50.090428;14.401453;https://www.google.com/maps/search/?api=1&query=50.090428,14.401453;https://en.wikipedia.org/wiki/Old_Royal_Palace_%28Prague%29
+PRG-007;Szent György bazilika;Bazilika svatého Jiří;50.091200;14.402600;https://www.google.com/maps/search/?api=1&query=50.0912,14.4026;https://en.wikipedia.org/wiki/St._George%27s_Basilica_%28Prague%29
+PRG-008;Strahovi kolostor és könyvtár;Strahovský klášter;50.086000;14.390000;https://www.google.com/maps/search/?api=1&query=50.086,14.39;https://en.wikipedia.org/wiki/Strahov_Monastery
+PRG-009;Prágai Loreta;Pražská Loreta;50.089279;14.391861;https://www.google.com/maps/search/?api=1&query=50.089279,14.391861;https://prague.eu/en/objevujte/loreto-loreta/
+PRG-010;Újvilág utca;Nový Svět;50.091291;14.389612;https://www.google.com/maps/search/?api=1&query=50.091291,14.389612;https://prague.eu/en/objevujte/novy-svet-new-world/
+PRG-011;Petřín kilátótorony;Petřínská rozhledna;50.083544;14.395050;https://www.google.com/maps/search/?api=1&query=50.083544,14.39505;https://en.wikipedia.org/wiki/Pet%C5%99%C3%ADn_Lookout_Tower
+PRG-012;Károly híd;Karlův most;50.086501;14.411724;https://www.google.com/maps/search/?api=1&query=50.086501,14.411724;https://prague.eu/en/objevujte/charles-bridge-karluv-most/
+PRG-013;Kisoldal és központi tere;Malá Strana a Malostranské náměstí;50.088269;14.404333;https://www.google.com/maps/search/?api=1&query=50.088269,14.404333;https://prague.eu/en/objevujte/malostranske-square/
+PRG-014;Kisoldali Szent Miklós templom;Kostel svatého Mikuláše;50.088000;14.403200;https://www.google.com/maps/search/?api=1&query=50.088,14.4032;https://en.wikipedia.org/wiki/St._Nicholas_Church_%28Mal%C3%A1_Strana%29
+PRG-015;Kampa szigete és a sárga pingvinek;Kampa;50.084201;14.408022;https://www.google.com/maps/search/?api=1&query=50.084201,14.408022;https://www.visitczechia.com/en-us/things-to-do/places/landmarks/urban-architecture/c-prague-kampa-island
+PRG-016;Lennon fal;Lennonova zeď;50.086148;14.406607;https://www.google.com/maps/search/?api=1&query=50.086148,14.406607;https://prague.eu/en/objevujte/john-lennon-wall-zed-johna-lennona/
+PRG-017;Óvárosi tér;Staroměstské náměstí;50.087525;14.421105;https://www.google.com/maps/search/?api=1&query=50.087525,14.421105;https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/
+PRG-018;Orloj és Óvárosháza;Pražský orloj a Staroměstská radnice;50.087008;14.420917;https://www.google.com/maps/search/?api=1&query=50.087008,14.420917;https://en.wikipedia.org/wiki/Prague_astronomical_clock
+PRG-019;Týn templom;Chrám Matky Boží před Týnem;50.087600;14.422700;https://www.google.com/maps/search/?api=1&query=50.0876,14.4227;https://en.wikipedia.org/wiki/Church_of_Our_Lady_before_T%C3%BDn
+PRG-020;Lőportorony;Prašná brána;50.087262;14.427792;https://www.google.com/maps/search/?api=1&query=50.087262,14.427792;https://prague.eu/en/objevujte/powder-gate-tower-prasna-brana/
+PRG-021;Városi Ház;Obecní dům;50.087500;14.428056;https://www.google.com/maps/search/?api=1&query=50.0875,14.428056;https://en.wikipedia.org/wiki/Municipal_House
+PRG-022;Vencel tér;Václavské náměstí;50.081390;14.427500;https://www.google.com/maps/search/?api=1&query=50.08139,14.4275;https://en.wikipedia.org/wiki/Wenceslas_Square
+PRG-023;Nemzeti Múzeum;Národní muzeum;50.078831;14.430797;https://www.google.com/maps/search/?api=1&query=50.078831,14.430797;https://en.wikipedia.org/wiki/National_Museum_%28Prague%29
+PRG-024;Zsidó negyed;Josefov;50.089720;14.418610;https://www.google.com/maps/search/?api=1&query=50.08972,14.41861;https://en.wikipedia.org/wiki/Josefov
+PRG-025;Régi Új zsinagóga;Staronová synagoga;50.090000;14.418610;https://www.google.com/maps/search/?api=1&query=50.09,14.41861;https://en.wikipedia.org/wiki/Old_New_Synagogue
+PRG-026;Táncoló Ház;Tančící dům;50.075473;14.414143;https://www.google.com/maps/search/?api=1&query=50.075473,14.414143;https://prague.eu/en/objevujte/dancing-house-tancici-dum/
+PRG-027;Vyšehrad vára és bazilikája;Vyšehrad;50.064170;14.419440;https://www.google.com/maps/search/?api=1&query=50.06417,14.41944;https://en.wikipedia.org/wiki/Vy%C5%A1ehrad
