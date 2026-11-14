@@ -41,3 +41,14 @@ A Praga_koordinatak.csv UTF-8 BOM kódolású, pontosvesszővel tagolt pontlista
 ## Internet és offline használat
 
 A szövegekhez és a képekhez nincs szükség külső tartalomszerverre. A Leaflet, az OpenStreetMap térképcsempék és a Google Maps navigáció internetet igényelnek. Ez a projekt a mintához hasonlóan nem telepíthető offline PWA. A térkép hiánya nem akadályozza a lista és a hosszú leírások olvasását.
+
+
+## Egynapos sétaút a térképen · 2026. november 14.
+
+A nyitóoldalon a Sétaút a térképen gomb közvetlenül a térképhez visz. A csatolt Prague 1-Day Itinerary.kml öt vonala került be, összesen 1169 koordinátával. A fő séta 6,0 km, az A indulás 0,4 km, a B indulás 0,6 km, a Petřín kitérő 3,3 km, a Josefov kitérő 1,1 km. Ezek nyomvonalból számított közelítő hosszak.
+
+Alapból a fő séta és az A indulás látható. A további szakaszok külön kapcsolhatók. A választás ugyanabban a böngészőben megmarad, ha a helyi adattárolás elérhető. A Látható útvonal gomb a bekapcsolt vonalakra, az Összes látnivaló gomb mind a 27 eredeti helyszínre igazítja a térképet. A GPS frissítése nem állítja vissza a térkép nézetét.
+
+A Praga_egynapos_seta.gpx az öt vonalat külön trackként tartalmazza. Az alternatív indulások és kitérők külön maradtak, a fájl nem jelent egyetlen folyamatos útvonalat. Az eredeti 27 pontos Praga_POI.gpx továbbra is külön elérhető. Az eredeti KML a routes mappában található. A térkép a helyben tárolt walking_routes.js fájlt használja, fájlbetöltés vagy API kulcs nélkül. A KML vonalainak eredeti koordinátái és sorrendje megmaradtak, közöttük új összekötő vonal nem készült. A részletoldalak térképei továbbra is az adott látnivalót mutatják.
+
+Frissítéshez a teljes Praga mappa tartalmát másold a korábbi oldal helyére. A meglévő szövegek, képek és részletoldalak változatlanok.

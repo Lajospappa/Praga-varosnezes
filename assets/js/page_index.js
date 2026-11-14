@@ -81,7 +81,7 @@
 
   function setupScrollRestore(){
     const y = load("PRG_index_scrollY", null);
-    if (typeof y === "number" && y > 0) setTimeout(()=> window.scrollTo(0, y), 60);
+    if (!window.location.hash && typeof y === "number" && y > 0) setTimeout(()=> window.scrollTo(0, y), 60);
     window.addEventListener("beforeunload", ()=> save("PRG_index_scrollY", window.scrollY || 0));
   }
 

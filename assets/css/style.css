@@ -137,3 +137,16 @@ body.praga {
 .image-credit {margin:6px 0 10px;overflow-wrap:anywhere}.image-credit a{text-decoration:underline}
 
 .poi-source-info {margin:18px 0;padding:12px;border:1px solid #ffffff24;border-radius:12px} .poi-source-info a,.footer-links a{text-decoration:underline} #contentText .p{font-size:16px;line-height:1.7;margin:16px 0} .visit-note {border-left:3px solid var(--accent);padding-left:12px} .footer-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:16px} .poi-numbered-icon:focus-visible{outline:3px solid #d7b45a} summary{cursor:pointer;padding:8px 0} @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+/* A csatolt egynapos séta kapcsolható nyomvonalai. */
+.route-controls[hidden]{display:none}
+.route-choices{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.route-choice{display:flex;align-items:center;gap:8px;min-height:44px;padding:9px 12px;border:1px solid #ffffff24;border-radius:12px;background:#ffffff08;font-size:14px;cursor:pointer}
+.route-choice input{width:18px;height:18px;accent-color:var(--accent);flex-shrink:0}
+.route-swatch{width:24px;border-top:4px solid;flex-shrink:0}
+.route-actions{display:flex;flex-wrap:wrap;gap:8px}
+.route-choice:focus-within{outline:3px solid var(--accent);outline-offset:2px}
+.btn:disabled{opacity:.45;cursor:default}
+#walkingMap{scroll-margin-top:110px}
+#walkingMap .map{height:500px}
+@media(max-width:540px){#walkingMap{scroll-margin-top:190px}#walkingMap .map{height:420px}.route-choice{width:100%}}
